@@ -26,4 +26,9 @@
   (pad 6 thru_hole oval (at 2.4991 -1.56254 90) (size 0.95 1.25) (drill oval 0.55 0.85) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole oval (at -3.5009 1.13746 90) (size 1.55 1) (drill oval 1.15 0.5) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole oval (at 3.4991 1.13746 90) (size 1.55 1) (drill oval 1.15 0.5) (layers *.Cu *.Mask F.SilkS))
+  (model /home/debian/packages/kicad/kicad-packages3D/Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
