@@ -39,6 +39,12 @@ D Connector ATARI XE ECI
 K ATARI XE ECI
 $ENDCMP
 #
+$CMP FAN5331
+D High Efficiency Serial LED Driver and OLED Supply with 20V Integrated Switch
+K FAN5331 FAIRCHILD
+F https://www.mouser.com/datasheet/2/149/FAN5331-92198.pdf
+$ENDCMP
+#
 $CMP IS61WV5128BL-10
 D SRAM 512K x 8-bit, 525mil SOP32, 70ns
 K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
