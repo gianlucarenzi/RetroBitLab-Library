@@ -1,4 +1,4 @@
-(module IDC_02X20_2.54mm_Horizontal_PCB_2SIDES (layer F.Cu) (tedit 6058CCA9)
+(module IDC_02X20_2.54mm_Horizontal_PCB_2SIDES (layer F.Cu) (tedit 6058762D)
   (fp_text reference IDC** (at 0.127 -4.318) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -70,7 +70,7 @@
   (pad 39 smd rect (at -24.13 -1.778) (size 1.524 3) (layers F.Cu F.Paste F.Mask))
   (pad 40 smd rect (at -24.13 -1.778) (size 1.524 3) (layers B.Cu B.Paste B.Mask))
   (model ${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x20_P2.54mm_Vertical.wrl
-    (offset (xyz 24.1 -0.5 0.3))
+    (offset (xyz 24.13 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 -90 0))
   )
