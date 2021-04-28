@@ -137,7 +137,7 @@
   (pad 5 smd rect (at 4.305 0) (size 2.44 1.12) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -4.305 2.54) (size 2.44 1.12) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 4.305 -2.54) (size 2.44 1.12) (layers F.Cu F.Paste F.Mask))
-  (model /home/debian/packages/kicad/kicad-packages3D/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx03_Slide_9.78x9.8mm_W8.61mm_P2.54mm.wrl
+  (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx03_Slide_9.78x9.8mm_W8.61mm_P2.54mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
