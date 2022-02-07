@@ -3976,5 +3976,32 @@ P 2 1 1 5 1300 200 300 200 N
 ENDDRAW
 ENDDEF
 #
-#End Library
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# Wurth SPST 434121025816 7.3 mm x 3.9 mm x 2.5 mm
+#
+DEF 434121025816 S 0 40 Y N 1 L N
+F0 "S" -25 90 50 H V L BNN
+F1 "434121025816" -200 -120 50 H V L BNN
+F2 "434121025816" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "434121025816" 0 0 50 H I L BNN "VALUE"
+F5 "3000" 0 0 50 H I L BNN "QTY"
+F6 "434121025816 7.3x3.9.2.5" 0 0 50 H I L BNN "PART-NUMBER"
+F7 "https://www.we-online.com/catalog/datasheet/434121025816.pdf" 0 0 50 H I L BNN "DATASHEET-URL"
+F8 "2.5mm" 0 0 50 H I L BNN "H"
+F9 "160g" 0 0 50 H I L BNN "OPERATION-FORCE"
+DRAW
+C -50 0 20 0 0 10 N
+C 50 0 20 0 0 10 N
+P 2 0 0 10 -58 19 53 41 N
+P 2 0 0 10 -100 0 -71 0 N
+P 2 0 0 10 71 0 100 0 N
+X ~ 1 -200 0 100 R 40 40 0 0 P 
+X ~ 2 200 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
 # End Library
