@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-04062020-055412";"";
+"REFERENCE";"52045-3245";"";
+"TraceParts.PartTitle";"Connector,PCB,FFC,1.25mm,Vertical,32p";"";
+"TraceParts.InstanceId";"90-04062020-0554122N3XX9WWY2MK673V115V3T3RA";"";
+"DESIGN";"Connector,PCB,FFC,1.25mm,Vertical,32p";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"Molex";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"MOLEX:90-04062020-055412";"";
