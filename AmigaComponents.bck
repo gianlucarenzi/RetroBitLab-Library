@@ -73,4 +73,9 @@ D 8 Channel Level Shifter I/O
 K TXB0108
 $ENDCMP
 #
+$CMP USB_A_SMD_LCSC
+D USB Type A connector
+K connector USB
+$ENDCMP
+#
 #End Doc Library
