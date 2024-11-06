@@ -68,6 +68,10 @@ D Sound Interface Device from MOS/Commodore
 F https://ccrma.stanford.edu/~chet/projects/tech_content/6581.pdf
 $ENDCMP
 #
+$CMP STM32F401-EVK
+D STM32F401XX EVK Evaluation Board 64QFP
+$ENDCMP
+#
 $CMP TXB0108-PW
 D 8 Channel Level Shifter I/O
 K TXB0108
