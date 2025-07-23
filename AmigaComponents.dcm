@@ -43,6 +43,10 @@ D Connector ATARI XE ECI
 K ATARI XE ECI
 $ENDCMP
 #
+$CMP ESP32-BOBOARD-LOGO
+D Board Logo
+$ENDCMP
+#
 $CMP FAN5331
 D High Efficiency Serial LED Driver and OLED Supply with 20V Integrated Switch
 K FAN5331 FAIRCHILD
