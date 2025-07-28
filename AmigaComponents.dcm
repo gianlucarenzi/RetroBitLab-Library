@@ -10,6 +10,11 @@ D Microprocessor Keyboard MPU Amiga 600 (version PLCC 44 pins)
 K MPU U13
 $ENDCMP
 #
+$CMP 74CBTLV3126PW,118
+D Digital Bus Switch ICs SOT402-1 BUS SWITCH 4-BIT
+F https://assets.nexperia.com/documents/data-sheet/74CBTLV3126.pdf
+$ENDCMP
+#
 $CMP A1200U13_REV_PLCC44
 D Amiga 1200 Keyboard MPU Socket Reversed(version PLCC 44 pins)
 K A1200U13
@@ -32,6 +37,11 @@ $ENDCMP
 #
 $CMP Bus_ISA_8bit_for_ATARI_8bit
 D ISA Bus for ATARI EXPANSION BUS EXTENDER
+$ENDCMP
+#
+$CMP CD74HCT21M96
+D IC GATE AND 2CH 4-INP 14SOIC
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd74hct21
 $ENDCMP
 #
 $CMP DX07S016JA1R1500
@@ -88,6 +98,23 @@ $ENDCMP
 $CMP USB_A_SMD_LCSC
 D USB Type A connector
 K connector USB
+$ENDCMP
+#
+$CMP W25Q128JVS
+D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI QPI DTR
+F http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP W25Q16JVSNIQ
+D 16Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP WM8524CGEDT
+D IC DAC/AUDIO 24BIT 192K 16TSSOP
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/WM8524_v4.1.pdf
 $ENDCMP
 #
 #End Doc Library
