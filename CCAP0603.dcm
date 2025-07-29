@@ -31,9 +31,9 @@ F https://lcsc.com/datasheet/
 $ENDCMP
 #
 $CMP 22pF
-D 50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-K CCAP060322PX7R10%50V
-F https://lcsc.com/datasheet/lcsc_datasheet_2506131735_YAGEO-CC0603KRX7R9BB104_C14663.pdf
+D 50V 22pF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP060322PNP05%50V
+F https://lcsc.com/datasheet/lcsc_datasheet_2506131730_YAGEO-CC0603JRNPO9BN220_C105620.pdf
 $ENDCMP
 #
 $CMP 22uF
