@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CLED1210
+D CLED1210 RED Template
+K CLED1210RED Template
+$ENDCMP
+#
+$CMP GREEN
+D 20mA 2000mcd Water Clear -20℃~+80℃ 525nm Emerald Green 25° 76mW 3.2V 1210 LED Indication - Discrete ROHS
+K CLED1210GREEN
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121502_LITEON-LTST-C930TGKT_C364564.pdf
+$ENDCMP
+#
+$CMP RED
+D 20mA 345mcd Water Clear 624nm Red 2V 1210 LED Indication - Discrete ROHS
+K CLED1210RED
+$ENDCMP
+#
+#End Doc Library

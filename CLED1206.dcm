@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CLED1206
+D CLED1206 Template
+K CLED1206RED
+$ENDCMP
+#
+$CMP GREEN
+D 20mA 120mcd~300mcd Water Clear -40℃~+85℃ 570nm Green 50° 75mW 2.1V 1206 LED Indication - Discrete ROHS
+K CLED1206GREEN
+F https://lcsc.com/datasheet/lcsc_datasheet_2412111154_Kingbright-KPTD-3216CGCK-01_C27394172.pdf
+$ENDCMP
+#
+$CMP RED
+D 20mA 225mcd Water Clear op View Mount 615nm~630nm Red 120° 50mW 2.4V 1206 LED Indication - Discrete ROHS
+K CLED1206RED
+F https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-3216SURC_C965822.pdf
+$ENDCMP
+#
+#End Doc Library
