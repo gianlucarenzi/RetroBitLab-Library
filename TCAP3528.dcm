@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10uF
+D 10uF 20V 2.1Ω@100kHz ±10% CASE-B-3528-21(mm) Tantalum Capacitors ROHS
+K TCAP352810U10%20V
+$ENDCMP
+#
+$CMP 2.2uF
+D 2.2uF 20V 3.5Ω@100kHz ±20% CASE-B-3528-21(mm) Tantalum Capacitors ROHS Higher voltage ratings and tighter tolerance product including ESR may be substituted within the same size at KEMET's option. Voltage substitution will be marked with the higher voltage rating. Substitutions can include better than series.
+K TCAP35282.2U20%20V
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,62 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF
+D 100V 100nF X7R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP1210100NX7R20%100V
+F https://lcsc.com/datasheet/lcsc_datasheet_2411271919_Knowles-1210Y1000104MXT_C2351189.pdf
+$ENDCMP
+#
+$CMP 10nF
+D 500V 10nF X7R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP121010NX7R20%500V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121248_PSA-FM32X103M501ECG_C2929697.pdf
+$ENDCMP
+#
+$CMP 10uF
+D 50V 10uF X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP121010UX5R20%50V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121923_Taiyo-Yuden-UMK325BJ106MM-T_C386170.pdf
+$ENDCMP
+#
+$CMP 1uF
+D ±20% 1uF -40℃~+85℃ Acrylic 1210 Film Capacitors ROHS
+K CCAP12101UX7R20%16V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410010032_PANASONIC-ECPU1C105MA5_C569895.pdf
+$ENDCMP
+#
+$CMP 2.2uF
+D 100V 2.2uF X7R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP12102.2UX7R20%100V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121924_IHHEC-C1210X225M101T_C106116.pdf
+$ENDCMP
+#
+$CMP 22pF
+D 500V 22pF C0G ±5% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP121022PC0G5%500V
+F https://lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-FM32N220J501EMG_C22376465.pdf
+$ENDCMP
+#
+$CMP 22uF
+D 16V 22uF X7R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP121022UX7R20%16V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121924_IHHEC-C1210X225M101T_C106116.pdf
+$ENDCMP
+#
+$CMP 27pF
+D 500V 27pF C0G ±5% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP121027PC0G5%500V
+F https://lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-FM32N270J501EMG_C22376450.pdf
+$ENDCMP
+#
+$CMP 47uF
+D 16V 47uF X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP121047UX5R20%16V
+F https://lcsc.com/datasheet/lcsc_datasheet_2507231706_Taiyo-Yuden-EMK325BJ476MM-P_C412625.pdf
+$ENDCMP
+#
+$CMP CCAP1210
+D Template
+K CCAP1210 Template
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF
+D 100V 100nF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP0805100NX7R20%100V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 10nF
+D 500V 10nF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP080510NX7R20%500V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 10uF
+D 50V 10uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP080510UX5R20%50V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 1uF
+D ±20% 1uF -40℃~+85℃ Acrylic 0805 Film Capacitors ROHS
+K CCAP08051UX7R20%16V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 2.2uF
+D 100V 2.2uF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP08052.2UX7R20%100V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 22pF
+D 50V 22pF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP080522PC0G5%50V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0805COG220J500BT_C376875.pdf
+$ENDCMP
+#
+$CMP 22uF
+D 16V 22uF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP080522UX7R20%16V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 27pF
+D 500V 27pF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP080527PC0G5%500V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 47uF
+D 16V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP080547UX5R20%16V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+#End Doc Library

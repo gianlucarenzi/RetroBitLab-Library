@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF
+D 100V 100nF X7R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP0603100NX7R20%100V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 10nF
+D 500V 10nF X7R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP060310NX7R20%500V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 10uF
+D 50V 10uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP060310UX5R20%50V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 1uF
+D ±20% 1uF -40℃~+85℃ Acrylic 0603 Film Capacitors ROHS
+K CCAP06031UX7R20%16V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 2.2uF
+D 100V 2.2uF X7R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP06032.2UX7R20%100V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 22pF
+D 50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP060322PX7R10%50V
+F https://lcsc.com/datasheet/lcsc_datasheet_2506131735_YAGEO-CC0603KRX7R9BB104_C14663.pdf
+$ENDCMP
+#
+$CMP 22uF
+D 16V 22uF X7R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP060322UX7R20%16V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 27pF
+D 500V 27pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP060327PC0G5%500V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 47uF
+D 16V 47uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP060347UX5R20%16V
+F https://lcsc.com/datasheet/
+$ENDCMP
+#
+#End Doc Library
