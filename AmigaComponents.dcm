@@ -63,6 +63,18 @@ K FAN5331 FAIRCHILD
 F https://www.mouser.com/datasheet/2/149/FAN5331-92198.pdf
 $ENDCMP
 #
+$CMP FB0805100R100MHZ4A
+D 20mΩ ±25% 100Ω@100MHz 0805 Ferrite Beads ROHS
+K Ferrite Bead 100R 100MHz 4A 0805
+F https://lcsc.com/datasheet/lcsc_datasheet_2412191519_TDK-MPZ2012S101AT000_C15957.pdf
+$ENDCMP
+#
+$CMP FB1206100R100MHZ4A
+D 35mΩ ±25% 100Ω@100MHz 1206 Ferrite Beads ROHS
+K Ferrite Bead 100R 100MHz 4A 0805
+F https://lcsc.com/datasheet/lcsc_datasheet_2412191519_TDK-MPZ2012S101AT000_C15957.pdf
+$ENDCMP
+#
 $CMP IS61WV5128BL-10
 D SRAM 512K x 8-bit, 525mil SOP32, 70ns
 K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
