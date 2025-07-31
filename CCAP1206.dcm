@@ -25,9 +25,9 @@ F https://lcsc.com/datasheet/
 $ENDCMP
 #
 $CMP 2.2uF
-D 100V 2.2uF X7R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-K CCAP12062.2UX7R20%100V
-F https://lcsc.com/datasheet/
+D 100V 2.2uF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP12062.2UX7R10%100V
+F https://lcsc.com/datasheet/lcsc_datasheet_2504101957_YAGEO-CC1206KKX7R0BB225_C577211.pdf
 $ENDCMP
 #
 $CMP 22pF
@@ -46,6 +46,12 @@ $CMP 27pF
 D 500V 27pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP120627PC0G5%500V
 F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 4.7uF
+D 100V 4.7uF X7R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP12064.7UX7R20%100V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121646_Chinocera-HHV1206R7475M101NSPJ_C33546020.pdf
 $ENDCMP
 #
 $CMP 47uF

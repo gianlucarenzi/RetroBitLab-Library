@@ -25,9 +25,9 @@ F https://lcsc.com/datasheet/
 $ENDCMP
 #
 $CMP 2.2uF
-D 100V 2.2uF X7R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-K CCAP06032.2UX7R20%100V
-F https://lcsc.com/datasheet/
+D 50V 2.2uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP06032.2UX7R20%50V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121552_muRata-GRM188R61H225ME11D_C668357.pdf
 $ENDCMP
 #
 $CMP 22pF

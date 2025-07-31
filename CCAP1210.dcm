@@ -48,6 +48,12 @@ K CCAP121027PC0G5%500V
 F https://lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-FM32N270J501EMG_C22376450.pdf
 $ENDCMP
 #
+$CMP 4.7uF
+D 100V 4.7uF X7S ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP12104.7UX7S20%100V
+F https://lcsc.com/datasheet/lcsc_datasheet_2505151214_HRE-CGA1210X7S475M101RT_C6120043.pdf
+$ENDCMP
+#
 $CMP 47uF
 D 16V 47uF X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP121047UX5R20%16V

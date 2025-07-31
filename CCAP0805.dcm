@@ -25,9 +25,9 @@ F https://lcsc.com/datasheet/
 $ENDCMP
 #
 $CMP 2.2uF
-D 100V 2.2uF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-K CCAP08052.2UX7R20%100V
-F https://lcsc.com/datasheet/
+D 50V 2.2uF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP08052.2UX7R20%50V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121534_CCTC-TCC0805X7R225M500FT_C7393943.pdf
 $ENDCMP
 #
 $CMP 22pF
@@ -46,6 +46,12 @@ $CMP 27pF
 D 500V 27pF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP080527PC0G5%500V
 F https://lcsc.com/datasheet/
+$ENDCMP
+#
+$CMP 4.7uF
+D 50V 4.7uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP08054.7UX7R20%50V
+F https://lcsc.com/datasheet/lcsc_datasheet_2409291532_CCTC-TCC0805X5R475M500FT_C7393930.pdf
 $ENDCMP
 #
 $CMP 47uF

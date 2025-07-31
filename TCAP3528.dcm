@@ -1,8 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 10uF
+$CMP 10uF-20V
 D 10uF 20V 2.1Ω@100kHz ±10% CASE-B-3528-21(mm) Tantalum Capacitors ROHS
 K TCAP352810U10%20V
+$ENDCMP
+#
+$CMP 10uF-35V
+D 10uF 35V 200mΩ@100kHz ±20% CASE-B-3528-21(mm) Tantalum Capacitors ROHS
+K TCAP352810U10%35V
+F https://lcsc.com/datasheet/lcsc_datasheet_2410121815_VISHAY-T55B106M035C0200_C5346021.pdf
 $ENDCMP
 #
 $CMP 2.2uF
