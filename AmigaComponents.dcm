@@ -98,6 +98,12 @@ D Sound Interface Device from MOS/Commodore
 F https://ccrma.stanford.edu/~chet/projects/tech_content/6581.pdf
 $ENDCMP
 #
+$CMP SPST_SWITCH_SMD_4P,4.1x5.4mm
+D 2 SPST 24V 25mA Black 3,000 Cycles Slide, Recessed SMD-4P,4.1x5.4mm DIP Switches ROHS
+K SPST SWITCH SMD 4P 4.1x5.4
+F https://lcsc.com/datasheet/lcsc_datasheet_2110151630_XKB-Connection-DSHP02TS-S_C319052.pdf
+$ENDCMP
+#
 $CMP STM32F401-EVK
 D STM32F401XX EVK Evaluation Board 64QFP
 $ENDCMP
