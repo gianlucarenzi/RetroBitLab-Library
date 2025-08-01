@@ -24,6 +24,18 @@ K CRES060310K1%100mW
 F https://lcsc.com/datasheet/lcsc_datasheet_2411221127_UNI-ROYAL-0603WAF1002T5E_C25804.pdf
 $ENDCMP
 #
+$CMP 150R
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 150Ω 0603 Chip Resistor - Surface Mount ROHS
+K CRES0603150R1%100mW
+F https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-07150RL_C114608.pdf
+$ENDCMP
+#
+$CMP 160R
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 160Ω 0603 Chip Resistor - Surface Mount ROHS
+K CRES0603160R1%100mW
+F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F1600TS_C2933152.pdf
+$ENDCMP
+#
 $CMP 17K8
 D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 17.8kΩ 0603 Chip Resistor - Surface Mount ROHS
 K CRES060317K81%100mW
@@ -40,6 +52,18 @@ $CMP 270R
 D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 270Ω 0603 Chip Resistor - Surface Mount ROHS
 K CRES0603270R1%100mW
 F https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0603WAF2700T5E_C22966.pdf
+$ENDCMP
+#
+$CMP 27R
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 27Ω 0603 Chip Resistor - Surface Mount ROHS
+K CRES060327R1%100mW
+F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F27R0TS_C2907021.pdf
+$ENDCMP
+#
+$CMP 2K
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 2kΩ 0603 Chip Resistor - Surface Mount ROHS
+K CRES06032K1%100mW
+F https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-072KL_C105576.pdf
 $ENDCMP
 #
 $CMP 3K3
@@ -66,6 +90,12 @@ K CRES060347R1%100mW
 F https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0603WAF470JT5E_C23182.pdf
 $ENDCMP
 #
+$CMP 4K3
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 4.3kΩ 0603 Chip Resistor - Surface Mount ROHS
+K CRES06034K31%100mW
+F https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-074K3L_C137712.pdf
+$ENDCMP
+#
 $CMP 4K7
 D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS
 K CRES06034K71%100mW
@@ -82,6 +112,18 @@ $CMP 6K49
 D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 6.49kΩ 0603 Chip Resistor - Surface Mount ROHS
 K CRES06036K491%100mW
 F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F6491TS_C2933249.pdf
+$ENDCMP
+#
+$CMP 820R
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 820Ω 0603 Chip Resistor - Surface Mount ROHS
+K CRES0603820R1%100mW
+F https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-07820RL_C114638.pdf
+$ENDCMP
+#
+$CMP 910R
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 910Ω 0603 Chip Resistor - Surface Mount ROHS
+K CRES0603910R1%100mW
+F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F9100TS_C2907076.pdf
 $ENDCMP
 #
 $CMP CRES0603
