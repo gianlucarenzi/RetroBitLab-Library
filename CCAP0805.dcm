@@ -3,7 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP 100nF
 D 100V 100nF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP0805100NX7R20%100V
-F https://lcsc.com/datasheet/
+F https://www.lcsc.com/datasheet/C840116.pdf
 $ENDCMP
 #
 $CMP 10nF
@@ -39,7 +39,7 @@ $ENDCMP
 $CMP 22uF
 D 16V 22uF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP080522UX7R20%16V
-F https://lcsc.com/datasheet/
+F https://www.lcsc.com/datasheet/C86817.pdf
 $ENDCMP
 #
 $CMP 27pF
