@@ -30,6 +30,48 @@ D Connector CARTRIDGE ATARI BUS (LEFT)
 K CARTRIDGE ATARI LEFT
 $ENDCMP
 #
+$CMP BC817,SOT-23
+D 45V 160@100mA,1V 250mW 500mA NPN SOT-23 Bipolar (BJT) ROHS
+K NPN Transistor
+F https://www.lcsc.com/datasheet/C39828.pdf
+$ENDCMP
+#
+$CMP BC818
+D 0.8A Ic, 25V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC818-D.pdf
+$ENDCMP
+#
+$CMP BC846
+D 0.1A Ic, 65V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf
+$ENDCMP
+#
+$CMP BC847
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC848
+D 0.1A Ic, 30V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC849
+D 0.1A Ic, 30V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC850
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
 $CMP Bus_ABEX_EXTENDED
 D ATARI BUS EXTENDER ISA 16 BIT
 K ATARI, ISA, ABEX
@@ -91,6 +133,24 @@ $ENDCMP
 #
 $CMP MCP1827S-1.5A-TO-220-3
 D MCP1827S-1.5A-3.3V-LDO
+$ENDCMP
+#
+$CMP MMBT3904
+D 0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+$ENDCMP
+#
+$CMP MMBT5550L
+D 0.6A Ic, 140V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBT5551L
+D 0.6A Ic, 160V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
 $ENDCMP
 #
 $CMP MOS6581-6582-8580SID

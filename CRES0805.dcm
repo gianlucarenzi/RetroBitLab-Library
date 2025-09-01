@@ -47,6 +47,12 @@ K CRES08051K1%1/8W
 F https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0805W8F1001T5E_C17513.pdf
 $ENDCMP
 #
+$CMP 220R
+D 250mW Thick Film Resistor 150V ±1% ±100ppm/℃ 220Ω 0805 Chip Resistor - Surface Mount ROHS
+K CRES0805220R1%1/8W
+F https://lcsc.com/datasheet/lcsc_datasheet_2506161110_YAGEO-RC0805FR-07270RL_C137558.pdf
+$ENDCMP
+#
 $CMP 270R
 D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 270Ω 0805 Chip Resistor - Surface Mount ROHS
 K CRES0805270R1%1/8W
@@ -63,6 +69,12 @@ $CMP 2K
 D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 2kΩ 0805 Chip Resistor - Surface Mount ROHS
 K CRES08052K1%1/8W
 F https://lcsc.com/datasheet/lcsc_datasheet_2506161110_YAGEO-RC0805FR-072KL_C114572.pdf
+$ENDCMP
+#
+$CMP 2K2
+D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 2.2kΩ 0805 Chip Resistor - Surface Mount ROHS
+K CRES08052K21%1/8W
+F https://www.lcsc.com/datasheet/C17520.pdf
 $ENDCMP
 #
 $CMP 3K3
