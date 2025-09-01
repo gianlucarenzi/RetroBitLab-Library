@@ -20,6 +20,30 @@ D Amiga 1200 Keyboard MPU Socket Reversed(version PLCC 44 pins)
 K A1200U13
 $ENDCMP
 #
+$CMP AMS1117-1.5
+D 72dB@(120Hz) 1A Fixed 1.5V Positive 16V SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+K LDO 1117-1.5
+F https://www.lcsc.com/datasheet/C16172.pdf
+$ENDCMP
+#
+$CMP AMS1117-1.8
+D 72dB@(120Hz) 1A Fixed 1.8V Positive 15V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+K LDO 1117-2.5
+F https://www.lcsc.com/datasheet/C6185.pdf
+$ENDCMP
+#
+$CMP AMS1117-2.5
+D 72dB@(120Hz) 1A Fixed 2.5V Positive 12V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+K LDO 1117-2.5
+F https://www.lcsc.com/datasheet/C12087.pdf
+$ENDCMP
+#
+$CMP AMS1117-3.3
+D 72dB@(120Hz) 1A Fixed 3.3V Positive 16V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+K LDO 1117-3.3 
+F https://www.lcsc.com/datasheet/C6186.pdf
+$ENDCMP
+#
 $CMP ATARI-CARTRIDGE
 D Connector CARTRIDGE ATARI BUS (LEFT)
 K CARTRIDGE ATARI LEFT
