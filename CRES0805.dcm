@@ -119,6 +119,12 @@ K CRES0805510R1%1/8W
 F https://lcsc.com/datasheet/lcsc_datasheet_2506161110_YAGEO-RC0805FR-07510RL_C114563.pdf
 $ENDCMP
 #
+$CMP 5K1
+D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 5.1kΩ 0805 Chip Resistor - Surface Mount ROHS
+K CRES08055K11%1/8W
+F https://www.lcsc.com/datasheet/C27834.pdf
+$ENDCMP
+#
 $CMP 6K49
 D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 6.49kΩ 0805 Chip Resistor - Surface Mount ROHS
 K CRES08056K491%1/8W
