@@ -120,6 +120,12 @@ K CRES0603510R1%100mW
 F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F5100TS_C2907048.pdf
 $ENDCMP
 #
+$CMP 5K1
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 5.1kΩ 0603 Chip Resistor - Surface Mount ROHS
+K CRES06035K11%100mW
+F https://www.lcsc.com/datasheet/C23186.pdf
+$ENDCMP
+#
 $CMP 6K49
 D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 6.49kΩ 0603 Chip Resistor - Surface Mount ROHS
 K CRES06036K491%100mW
