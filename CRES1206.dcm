@@ -77,6 +77,12 @@ K CR12062K21%1/4W
 F https://lcsc.com/datasheet/lcsc_datasheet_2506161120_YAGEO-RC1206FR-072KL_C133543.pdf
 $ENDCMP
 #
+$CMP 2K7
+D 500mW Thick Film Resistor 200V ±1% ±200ppm/℃ 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS
+K CR12062K71%1/2W
+F https://lcsc.com/datasheet/lcsc_datasheet_2506161120_YAGEO-RC1206FR-072KL_C133543.pdf
+$ENDCMP
+#
 $CMP 330R
 D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 330Ω 1206 Chip Resistor - Surface Mount ROHS
 K CR1206330R1%1/4W
@@ -101,6 +107,12 @@ K CR1206470R1%1/4W
 F https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-1206W4F4700T5E_C4502.pdf
 $ENDCMP
 #
+$CMP 47K
+D 250mW Thick Film Resistor 200V ±100ppm/℃ ±1% 47kΩ 1206 Chip Resistor - Surface Mount ROHS
+K CR120647K1%1/4W
+F https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-1206W4F470JT5E_C17969.pdf
+$ENDCMP
+#
 $CMP 47R
 D 250mW Thick Film Resistor 200V ±1% ±200ppm/℃ 47Ω 1206 Chip Resistor - Surface Mount ROHS
 K CR120647R1%1/4W
@@ -122,6 +134,12 @@ $ENDCMP
 $CMP 510R
 D 250mW Thick Film Resistor 200V ±100ppm/℃ ±1% 510Ω 1206 Chip Resistor - Surface Mount ROHS
 K CR1206510R1%1/4W
+F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC1206F5100TS_C2933720.pdf
+$ENDCMP
+#
+$CMP 560R
+D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 560Ω 1206 Chip Resistor - Surface Mount ROHS
+K CR1206560R1%1/2W
 F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC1206F5100TS_C2933720.pdf
 $ENDCMP
 #

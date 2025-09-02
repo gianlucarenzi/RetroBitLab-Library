@@ -78,6 +78,12 @@ K CRES12102K2100PPM1%1/2W
 F https://www.lcsc.com/datasheet/C3000590.pdf
 $ENDCMP
 #
+$CMP 2K7
+D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 4.7kΩ 1210 Chip Resistor - Surface Mount ROHS
+K CRES12102K7100PPM1%1/2W
+F https://www.lcsc.com/datasheet/C230269.pdf
+$ENDCMP
+#
 $CMP 330R
 D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 330Ω 1210 Chip Resistor - Surface Mount ROHS
 K CRES1210330R1%1/2W
@@ -96,6 +102,12 @@ K CRES1210470R1%1/2W
 F https://lcsc.com/datasheet/lcsc_datasheet_2408150952_FOJAN-FRC1210F4700TS_C3013280.pdf
 $ENDCMP
 #
+$CMP 47K
+D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 47kΩ 1210 Chip Resistor - Surface Mount ROHS
+K CRES121047K1%1/2W
+F https://www.lcsc.com/datasheet/C620684.pdf
+$ENDCMP
+#
 $CMP 47R
 D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 47Ω 1210 Chip Resistor - Surface Mount ROHS
 K CRES121047R1%1/2W
@@ -112,6 +124,12 @@ $CMP 4K7
 D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 4.7kΩ 1210 Chip Resistor - Surface Mount ROHS
 K CRES12104K71%1/2W
 F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC1210F4701TS_C2930443.pdf
+$ENDCMP
+#
+$CMP 560R
+D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 560Ω 1210 Chip Resistor - Surface Mount ROHS
+K CRES1210560R1%1/2W
+F https://www.lcsc.com/datasheet/C422274.pdf
 $ENDCMP
 #
 $CMP 5K1
