@@ -5,6 +5,12 @@ D PCI Express 4.0 64 pins
 K PCIE; PCI-Express; PCI-EXPRESS
 $ENDCMP
 #
+$CMP 12MHzC
+D 12MHz 22pF ±20ppm ±20ppm HC-49S-SMD Crystals ROHS
+K quartz ceramic resonator oscillator 12MHz
+F https://www.lcsc.com/datasheet/C18209142.pdf
+$ENDCMP
+#
 $CMP 6571R4_PLCC44_MPUKEY_REV
 D Microprocessor Keyboard MPU Amiga 600 (version PLCC 44 pins)
 K MPU U13
@@ -13,6 +19,12 @@ $ENDCMP
 $CMP 74CBTLV3126PW,118
 D Digital Bus Switch ICs SOT402-1 BUS SWITCH 4-BIT
 F https://assets.nexperia.com/documents/data-sheet/74CBTLV3126.pdf
+$ENDCMP
+#
+$CMP 8MHzC
+D 8MHz Crystal Oscillator 20pF ±20ppm ±30ppm HC-49S-SMD Crystals ROHS
+K quartz ceramic resonator oscillator 8MHz
+F https://www.lcsc.com/datasheet/C18209142.pdf
 $ENDCMP
 #
 $CMP A1200U13_REV_PLCC44
@@ -40,16 +52,11 @@ $ENDCMP
 #
 $CMP AMS1117-3.3
 D 72dB@(120Hz) 1A Fixed 3.3V Positive 16V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
-K LDO 1117-3.3 
+K LDO 1117-3.3
 F https://www.lcsc.com/datasheet/C6186.pdf
 $ENDCMP
 #
 $CMP ATARI-CARTRIDGE
-D Connector CARTRIDGE ATARI BUS (LEFT)
-K CARTRIDGE ATARI LEFT
-$ENDCMP
-#
-$CMP ATARICARTRIDGE
 D Connector CARTRIDGE ATARI BUS (LEFT)
 K CARTRIDGE ATARI LEFT
 $ENDCMP
@@ -110,6 +117,12 @@ D IC GATE AND 2CH 4-INP 14SOIC
 F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd74hct21
 $ENDCMP
 #
+$CMP DIOSCH20V
+D 20V 500mV@3A 4A SMC(DO-214AB) Schottky Diodes ROHS
+K diode Schottky 20V
+F https://www.lcsc.com/datasheet/C236151.pdf
+$ENDCMP
+#
 $CMP DX07S016JA1R1500
 D USB C Receptacle
 $ENDCMP
@@ -151,6 +164,12 @@ D SRAM 4Mbit 512Kx8 CMOS 10ns
 K ISSI61WV5128BL
 $ENDCMP
 #
+$CMP L7805
+D 68dB@(120Hz) 1A Fixed 5V Positive 24V TO-252-2(DPAK) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+K L7805
+F https://www.lcsc.com/datasheet/C110908.pdf
+$ENDCMP
+#
 $CMP LOGO
 D Any valid LOGO Images can be placed here
 $ENDCMP
@@ -182,6 +201,12 @@ D Sound Interface Device from MOS/Commodore
 F https://ccrma.stanford.edu/~chet/projects/tech_content/6581.pdf
 $ENDCMP
 #
+$CMP PJ-002AH-SMT-TR
+D SMD DC Power Connectors ROHS
+K Barrel Jack
+F https://www.lcsc.com/datasheet/C22434687.pdf
+$ENDCMP
+#
 $CMP SPST_SWITCH_SMD_4P,4.1x5.4mm
 D 2 SPST 24V 25mA Black 3,000 Cycles Slide, Recessed SMD-4P,4.1x5.4mm DIP Switches ROHS
 K SPST SWITCH SMD 4P 4.1x5.4
@@ -197,15 +222,21 @@ D 8 Channel Level Shifter I/O
 K TXB0108
 $ENDCMP
 #
+$CMP USBCH340T
+D USB serial converter, UART, SSOP-20
+K USB UART Serial Converter Interface
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF
+$ENDCMP
+#
 $CMP USB_A_SMD_LCSC
 D USB Type A connector
 K connector USB
 $ENDCMP
 #
-$CMP W25Q128JVS
+$CMP W25Q128JVSNIQ
 D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
-K flash memory SPI QPI DTR
-F http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
 $ENDCMP
 #
 $CMP W25Q16JVSNIQ

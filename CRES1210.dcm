@@ -78,6 +78,12 @@ K CRES12102K2100PPM1%1/2W
 F https://www.lcsc.com/datasheet/C3000590.pdf
 $ENDCMP
 #
+$CMP 330R
+D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 330Ω 1210 Chip Resistor - Surface Mount ROHS
+K CRES1210330R1%1/2W
+F https://www.lcsc.com/datasheet/C2933817.pdf
+$ENDCMP
+#
 $CMP 3K3
 D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 3.3kΩ 1210 Chip Resistor - Surface Mount ROHS
 K CRES12103K31%1/2W

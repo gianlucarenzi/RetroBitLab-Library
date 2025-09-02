@@ -77,6 +77,12 @@ K CRES08052K21%1/8W
 F https://www.lcsc.com/datasheet/C17520.pdf
 $ENDCMP
 #
+$CMP 330R
+D 500mW Thick Film Resistor 150V ±1% ±100ppm/℃ 330Ω 0805 Chip Resistor - Surface Mount ROHS
+K CRES0805330R1%1/8W
+F https://www.lcsc.com/datasheet/C313892.pdf
+$ENDCMP
+#
 $CMP 3K3
 D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 3.3kΩ 0805 Chip Resistor - Surface Mount ROHS
 K CRES08053K31%1/8W
