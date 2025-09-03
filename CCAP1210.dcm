@@ -19,9 +19,9 @@ F https://lcsc.com/datasheet/lcsc_datasheet_2410121923_Taiyo-Yuden-UMK325BJ106MM
 $ENDCMP
 #
 $CMP 1uF
-D ±20% 1uF -40℃~+85℃ Acrylic 1210 Film Capacitors ROHS
-K CCAP12101UX7R20%16V
-F https://lcsc.com/datasheet/lcsc_datasheet_2410010032_PANASONIC-ECPU1C105MA5_C569895.pdf
+D 100V 1uF X7R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP12101UX7R20%100V
+F https://www.lcsc.com/datasheet/C342730.pdf
 $ENDCMP
 #
 $CMP 2.2uF

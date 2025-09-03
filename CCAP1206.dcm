@@ -15,13 +15,13 @@ $ENDCMP
 $CMP 10uF
 D 50V 10uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP120610UX5R20%50V
-F https://lcsc.com/datasheet/
+F https://www.lcsc.com/datasheet/C363964.pdf
 $ENDCMP
 #
 $CMP 1uF
-D ±20% 1uF -40℃~+85℃ Acrylic 1206 Film Capacitors ROHS
-K CCAP12061UX7R20%16V
-F https://lcsc.com/datasheet/
+D 50V 1uF X7R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP12061UX7R20%50V
+F https://www.lcsc.com/datasheet/C126610.pdf
 $ENDCMP
 #
 $CMP 2.2uF

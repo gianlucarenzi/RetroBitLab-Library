@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 0R
-D 500mW Thick Film Resistor 200V ±1% ±200ppm/℃ 0Ω 1210 Chip Resistor - Surface Mount ROHS
+D 500mW Thick Film Resistor 200V ±1% 0Ω 1210 Chip Resistor - Surface Mount ROHS
 K CRES12100R200PPM1%1/2W
 F https://lcsc.com/datasheet/lcsc_datasheet_2408150952_FOJAN-FRC1210F0000TS_C2974058.pdf
 $ENDCMP
@@ -124,6 +124,12 @@ $CMP 4K7
 D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 4.7kΩ 1210 Chip Resistor - Surface Mount ROHS
 K CRES12104K71%1/2W
 F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC1210F4701TS_C2930443.pdf
+$ENDCMP
+#
+$CMP 50R
+D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 51Ω 1210 Chip Resistor - Surface Mount ROHS
+K CRES121050R1%1/2W
+F https://www.lcsc.com/datasheet/C70407.pdf
 $ENDCMP
 #
 $CMP 560R

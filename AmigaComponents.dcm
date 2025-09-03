@@ -124,6 +124,12 @@ K microSD uSD SDCard
 F https://www.lcsc.com/datasheet/C114218.pdf
 $ENDCMP
 #
+$CMP CONN_SMD_02x08_Odd_Even_2.54mm
+D 2.54mm 2.54mm 2 3A -40℃~+105℃ Copper Alloy 16P Surface Mount,Vertical 2x8P Top 8.5mm Square Hole SMD,P=2.54mm Female Headers ROHS
+K connector header 2x8 p2.54mm SMD
+F https://www.lcsc.com/datasheet/C3975153.pdf
+$ENDCMP
+#
 $CMP DIOSCH20V
 D 20V 500mV@3A 4A SMC(DO-214AB) Schottky Diodes ROHS
 K diode Schottky 20V
@@ -145,7 +151,7 @@ $ENDCMP
 #
 $CMP ESP32-PICO-D4
 D 150Mbps 2.412GHz~2.484GHz 2.4GHz -97dBm QFN-48-EP(7x7) RF Transceiver ICs ROHS
-K ESPRESSIF ESP32-PICO-D4 
+K ESPRESSIF ESP32-PICO-D4
 F https://www.lcsc.com/datasheet/C193707.pdf
 $ENDCMP
 #
@@ -173,6 +179,12 @@ K 74HC00 NAND
 F https://www.lcsc.com/datasheet/C5586.pdf
 $ENDCMP
 #
+$CMP ICD15S13E4GX00LF
+D DB15 Female High Density w/ mounting holes
+K DB15 VGA FEMALE
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_dsub_brochure.pdf
+$ENDCMP
+#
 $CMP IS61WV5128BL-10
 D SRAM 512K x 8-bit, 525mil SOP32, 70ns
 K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
@@ -181,6 +193,12 @@ $ENDCMP
 $CMP ISSI61WV5128BL
 D SRAM 4Mbit 512Kx8 CMOS 10ns
 K ISSI61WV5128BL
+$ENDCMP
+#
+$CMP Jumper3_Bridged12
+D Jumper, 3-pole, pins 1+2 closed/bridged
+K Jumper SPDT
+F ~
 $ENDCMP
 #
 $CMP L7805
@@ -232,6 +250,18 @@ K Barrel Jack
 F https://www.lcsc.com/datasheet/C22434687.pdf
 $ENDCMP
 #
+$CMP SG-5032CAN
+D 25 MHz SMD5032-4P Crystal Oscillators ROHS
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en
+$ENDCMP
+#
+$CMP SG-5032CBN
+D CMOS Clock Oscillator 80 to 170 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CBN&lang=en
+$ENDCMP
+#
 $CMP SPST2P
 D Vertical SPST SMD Tactile Switches ROHS No Without Bracket 50mA 7.3mm 100,000 Cycles 2.6N 12V 4mm 2.5mm Round Button Surface Mount,Vertical SPST SMD Tactile Switches ROHS
 K switch normally-open pushbutton push-button
@@ -249,8 +279,15 @@ D STM32F401XX EVK Evaluation Board 64QFP
 $ENDCMP
 #
 $CMP TXB0108-PW
-D 8 Channel Level Shifter I/O
+D 1.65V~5.5V 1 8 1.4V~3.6V 60Mbps TSSOP-20 Translators, Level Shifters ROHS
 K TXB0108
+F https://www.lcsc.com/datasheet/C17206.pdf
+$ENDCMP
+#
+$CMP TXS0108EPW
+D 1.65V~5.5V 1 8 1.4V~3.6V 60Mbps TSSOP-20 Translators, Level Shifters ROHS
+K 8-BIT BIDIRECTIONAL VOLTAGE-LEVEL TRANSLATOR
+F www.ti.com/lit/ds/symlink/txs0108e.pdf
 $ENDCMP
 #
 $CMP USBCH340T

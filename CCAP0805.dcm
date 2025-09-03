@@ -19,9 +19,9 @@ F https://lcsc.com/datasheet/
 $ENDCMP
 #
 $CMP 1uF
-D ±20% 1uF -40℃~+85℃ Acrylic 0805 Film Capacitors ROHS
-K CCAP08051UX7R20%16V
-F https://lcsc.com/datasheet/
+D 50V 1uF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP08051UX7R20%50V
+F https://www.lcsc.com/datasheet/C2798196.pdf
 $ENDCMP
 #
 $CMP 2.2uF

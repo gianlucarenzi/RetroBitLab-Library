@@ -3,6 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP 0R
 D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS
 K CRES08050R1%1/4W
+F https://www.lcsc.com/datasheet/C328378.pdf
 $ENDCMP
 #
 $CMP 100K
@@ -129,6 +130,12 @@ $CMP 4K7
 D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS
 K CRES08054K71%1/8W
 F https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0805W8F4701T5E_C17673.pdf
+$ENDCMP
+#
+$CMP 50R
+D 125mW Thin Film Resistor 150V ±25ppm/℃ ±1% 50Ω 0805 Chip Resistor - Surface Mount ROHS
+K CRES080550R1%1/8W
+F https://www.lcsc.com/datasheet/C2828866.pdf
 $ENDCMP
 #
 $CMP 510R
