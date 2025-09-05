@@ -185,6 +185,18 @@ K DB15 VGA FEMALE
 F https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_dsub_brochure.pdf
 $ENDCMP
 #
+$CMP ICE40UP5K-SG48ITR
+D iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN
+K FPGA programmable logic
+F https://www.lcsc.com/datasheet/C2678152.pdf
+$ENDCMP
+#
+$CMP ICE5LP1K-SG48
+D iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
+$ENDCMP
+#
 $CMP IS61WV5128BL-10
 D SRAM 512K x 8-bit, 525mil SOP32, 70ns
 K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
