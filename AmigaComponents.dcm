@@ -145,6 +145,12 @@ D Connector ATARI XE ECI
 K ATARI XE ECI
 $ENDCMP
 #
+$CMP ECS-2033-250-BN
+D 3.3V 13mA 25MHz CMOS SMD2520-4P Crystal Oscillators ROHS
+K XTAL OSC 25MHz CMOS SMD
+F https://www.lcsc.com/datasheet/C2441279.pdf
+$ENDCMP
+#
 $CMP ESP32-BOBOARD-LOGO
 D Board Logo
 $ENDCMP
