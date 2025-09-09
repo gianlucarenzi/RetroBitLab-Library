@@ -19,7 +19,7 @@ $ENDCMP
 $CMP 74CBTLV3126PW,118
 D 2.3V~3.6V TSSOP-14 Signal Switches, Multiplexers, Decoders ROHS
 K 74CBTLV3126PW,118
-F https://assets.nexperia.com/documents/data-sheet/74CBTLV3126.pdf
+F https://www.lcsc.com/datasheet/C543078.pdf
 $ENDCMP
 #
 $CMP 8MHzC
@@ -340,6 +340,12 @@ $ENDCMP
 $CMP WM8524CGEDT
 D IC DAC/AUDIO 24BIT 192K 16TSSOP
 F https://www.lcsc.com/datasheet/C146242.pdf
+$ENDCMP
+#
+$CMP XDDB-1518-0932
+D 15P Female High Density D-Sub Right Angle 3 3A -25℃~+70℃ Through Hole D-Sub / VGA Connectors ROHS
+K DB15 VGA FEMALE
+F https://www.lcsc.com/datasheet/C7498158.pdf
 $ENDCMP
 #
 #End Doc Library

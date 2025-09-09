@@ -85,9 +85,9 @@ F https://www.lcsc.com/datasheet/C114662.pdf
 $ENDCMP
 #
 $CMP 330R
-D 250mW Thick Film Resistor 150V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS
-K CRES0603330R1%250mW
-F https://www.lcsc.com/datasheet/C441918.pdf
+D 100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS
+K CRES0603330R1%100mW
+F https://www.lcsc.com/datasheet/C105881.pdf
 $ENDCMP
 #
 $CMP 3K3
