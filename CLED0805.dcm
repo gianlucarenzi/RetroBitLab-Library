@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GREEN
+D 20mA 400mcd 525nm~537.5nm -30℃~+85℃ Green 130° 72mW 2.5V~3.6V 0805 LED Indication - Discrete ROHS
+K LED GREEN 0805 SMD
+F https://www.lcsc.com/datasheet/C84260.pdf
+$ENDCMP
+#
+#End Doc Library
