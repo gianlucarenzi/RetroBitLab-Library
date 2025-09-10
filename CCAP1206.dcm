@@ -30,6 +30,12 @@ K CCAP12062.2UX7R10%100V
 F https://lcsc.com/datasheet/lcsc_datasheet_2504101957_YAGEO-CC1206KKX7R0BB225_C577211.pdf
 $ENDCMP
 #
+$CMP 20pF
+D 1kV 20pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP120620PNP05%1kV
+F https://www.lcsc.com/datasheet/C5137576.pdf
+$ENDCMP
+#
 $CMP 22pF
 D 1kV 22pF NP0 ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP120622PNP05%1kV

@@ -6,9 +6,9 @@ K PCIE; PCI-Express; PCI-EXPRESS
 $ENDCMP
 #
 $CMP 12MHzC
-D 12MHz 22pF ±20ppm ±20ppm HC-49S-SMD Crystals ROHS
-K quartz ceramic resonator oscillator 12MHz
-F https://www.lcsc.com/datasheet/C18209142.pdf
+D 12MHz Crystal Oscillator 20pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS
+K quartz ceramic resonator oscillator CRYSTAL 12MHz 20pF SMD X322512MSB4SI
+F https://www.lcsc.com/datasheet/C9002.pdf
 $ENDCMP
 #
 $CMP 6571R4_PLCC44_MPUKEY_REV
@@ -170,7 +170,7 @@ $ENDCMP
 $CMP FB0805100R100MHZ4A
 D 20mΩ ±25% 100Ω@100MHz 0805 Ferrite Beads ROHS
 K Ferrite Bead 100R 100MHz 4A 0805
-F https://lcsc.com/datasheet/lcsc_datasheet_2412191519_TDK-MPZ2012S101AT000_C15957.pdf
+F https://www.lcsc.com/datasheet/C15957.pdf
 $ENDCMP
 #
 $CMP FB1206100R100MHZ4A
