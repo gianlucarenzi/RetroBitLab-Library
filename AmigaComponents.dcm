@@ -63,9 +63,9 @@ K CARTRIDGE ATARI LEFT
 $ENDCMP
 #
 $CMP BC817,SOT-23
-D 45V 160@100mA,1V 250mW 500mA NPN SOT-23 Bipolar (BJT) ROHS
-K NPN Transistor
-F https://www.lcsc.com/datasheet/C39828.pdf
+D 45V 100@100mA,1.0V 300mW 500mA NPN SOT-23 Bipolar (BJT) ROHS
+K TRANS NPN 45V 0.5A SOT-23
+F https://www.lcsc.com/datasheet/C20069154.pdf
 $ENDCMP
 #
 $CMP BC818
@@ -122,6 +122,12 @@ $CMP CONN_DM3AT-SF-PEJM5
 D -25℃~+85℃ 1.68mm Connector and Ejector MicroSD Card (TF Card) Push-Push SMD SD Card / Memory Card Connector ROHS
 K microSD uSD SDCard
 F https://www.lcsc.com/datasheet/C114218.pdf
+$ENDCMP
+#
+$CMP CONN_SMD_01x08_Staggered_2.54mm
+D 2.54mm 3A 1 Gold 8P -40℃~+105℃ Surface Mount,Vertical 1x8P 5mm Top Square Hole SMD,P=2.54mm(Staggered Pins) Female Headers ROHS
+K CONN SOCKET 8POS 2.54mm SINGLE ROW SMD
+F https://www.lcsc.com/datasheet/C42380985.pdf
 $ENDCMP
 #
 $CMP CONN_SMD_02x08_Odd_Even_2.54mm
