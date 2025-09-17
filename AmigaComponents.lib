@@ -1611,6 +1611,22 @@ X ~KB_DATA 44 1000 900 300 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# AMS1117-1.2
+#
+DEF AMS1117-1.2 U 0 40 Y Y 1 F N
+F0 "U" -175 175 50 H V C CNN
+F1 "AMS1117-1.2" 25 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 50 -175 50 H I C CNN
+F3 "" 50 -175 50 H I C CNN
+F4 "C347218" 50 -175 50 H I C CNN "LCSC"
+DRAW
+S -200 125 200 -150 0 1 8 f
+X GND 1 0 -250 100 U 50 50 1 1 W
+X VO 2 300 50 100 L 50 50 1 1 w
+X VI 3 -300 50 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # AMS1117-1.5
 #
 DEF AMS1117-1.5 U 0 40 Y Y 1 F N
@@ -4091,6 +4107,44 @@ X ~ST 1 -300 0 100 R 50 50 1 1 I
 X GND 2 0 -300 100 U 50 50 1 1 W
 X OUT 3 300 0 100 L 50 50 1 1 O
 X VCC 4 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# SJ-3523-SMT-TR
+#
+DEF SJ-3523-SMT-TR J 0 40 Y Y 1 F N
+F0 "J" -500 300 50 H V L BNN
+F1 "SJ-3523-SMT-TR" -500 -400 50 H V L BNN
+F2 "RetroBitLab:CONN_AUDIO_CUI_SJ-3523-SMT-TR" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Same Sky" 0 0 50 H I L BNN "MF"
+F5 "\\n                        \\n                            3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector\\n                        \\n" 0 0 50 H I L BNN "Description"
+F6 "None" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/SJ-3523-SMT-TR/Same+Sky/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "https://www.snapeda.com/parts/SJ-3523-SMT-TR/Same+Sky/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F10 "SJ-3523-SMT-TR" 0 0 50 H I L BNN "MP"
+F11 "In Stock" 0 0 50 H I L BNN "Availability"
+F12 "CUI Inc" 0 0 50 H I L BNN "MANUFACTURER"
+F13 "C4991872" 0 0 50 H I C CNN "LCSC"
+DRAW
+S -525 175 -600 -200 1 1 0 F
+S -525 250 250 -275 1 1 0 f
+P 2 0 0 10 -500 -200 -400 -200 N
+P 2 0 0 10 -500 100 -500 -200 N
+P 2 0 0 10 -400 100 -500 100 N
+P 2 0 0 10 -400 100 -400 -200 N
+P 2 0 0 10 -400 100 -400 200 N
+P 2 0 0 10 -400 200 200 200 N
+P 2 0 0 10 -300 100 -250 0 N
+P 2 0 0 10 -250 0 -200 100 N
+P 2 0 0 10 -200 100 200 100 N
+P 2 0 0 10 -150 -100 -200 -200 N
+P 2 0 0 10 -150 -100 -100 -200 N
+P 2 0 0 10 -100 -200 200 -200 N
+X SLEEVE 1 400 200 200 L 40 31 0 0 P
+X TIP 2 400 -200 200 L 40 31 0 0 P
+X RING 3 400 100 200 L 40 31 0 0 P
 ENDDRAW
 ENDDEF
 #

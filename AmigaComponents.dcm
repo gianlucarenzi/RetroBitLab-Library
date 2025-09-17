@@ -33,6 +33,12 @@ D Amiga 1200 Keyboard MPU Socket Reversed(version PLCC 44 pins)
 K A1200U13
 $ENDCMP
 #
+$CMP AMS1117-1.2
+D 1A 60dB@(120Hz) Fixed 1.2V Positive 18V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+K LDO 1117-1.2
+F https://www.lcsc.com/datasheet/C347218.pdf
+$ENDCMP
+#
 $CMP AMS1117-1.5
 D 72dB@(120Hz) 1A Fixed 1.5V Positive 16V SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
 K LDO 1117-1.5
@@ -296,6 +302,12 @@ $CMP SG-5032CBN
 D CMOS Clock Oscillator 80 to 170 MHz
 K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CBN&lang=en
+$ENDCMP
+#
+$CMP SJ-3523-SMT-TR
+D -25℃~+85℃ 12V Silver 1A Audio Connectors ROHS
+K Audio Connector 3.5mm STEREO
+F https://www.lcsc.com/datasheet/C4991872.pdf
 $ENDCMP
 #
 $CMP SPST2P
