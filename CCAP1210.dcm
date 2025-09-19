@@ -6,6 +6,12 @@ K CCAP1210100NX7R20%100V
 F https://lcsc.com/datasheet/lcsc_datasheet_2411271919_Knowles-1210Y1000104MXT_C2351189.pdf
 $ENDCMP
 #
+$CMP 100uF
+D 16V 100uF X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CAP CER 100uF 16V X5R 1210
+F https://www.lcsc.com/datasheet/C90143.pdf
+$ENDCMP
+#
 $CMP 10nF
 D 500V 10nF X7R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP121010NX7R20%500V

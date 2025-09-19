@@ -6,6 +6,12 @@ K CCAP0805100NX7R20%100V
 F https://www.lcsc.com/datasheet/C840116.pdf
 $ENDCMP
 #
+$CMP 100uF
+D 6.3V 100uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CAP CER 100uF 6.3V X5R 0805
+F https://www.lcsc.com/datasheet/C141660.pdf
+$ENDCMP
+#
 $CMP 10nF
 D 500V 10nF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP080510NX7R20%500V
