@@ -119,6 +119,12 @@ $CMP Bus_ISA_8bit_for_ATARI_8bit
 D ISA Bus for ATARI EXPANSION BUS EXTENDER
 $ENDCMP
 #
+$CMP CD4011B
+D NAND Gate SOIC-14 Gates and Inverters ROHS
+K 74HC00 NAND Quad 2-Input NAND Gate
+F https://www.lcsc.com/datasheet/C194334.pdf
+$ENDCMP
+#
 $CMP CD74HCT21M96
 D IC GATE AND 2CH 4-INP 14SOIC
 F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd74hct21
@@ -251,6 +257,16 @@ $ENDCMP
 #
 $CMP LOGO
 D Any valid LOGO Images can be placed here
+$ENDCMP
+#
+$CMP Label-10mmx5mm
+D Label Silkscreen 10mmx5mm
+K Label 10mmx5mm on SilkScreen
+$ENDCMP
+#
+$CMP Label-20mmx10mm
+D Label Silkscreen 20mmx10mm
+K Label 20mmx10mm on SilkScreen
 $ENDCMP
 #
 $CMP MAX40200AUK
