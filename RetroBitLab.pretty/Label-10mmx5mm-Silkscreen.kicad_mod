@@ -1,0 +1,12 @@
+(module Label-10mmx5mm-Silkscreen (layer F.Cu) (tedit 68D28B5B)
+  (descr "Label Silkscreen 10mmx5mm")
+  (tags "Label 10mmx5mm Silkscreen")
+  (attr virtual)
+  (fp_text reference REF** (at 0 -4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Label-10mmx5mm-Silkscreen (at 0 4) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy 5 2.5) (xy -5 2.5) (xy -5 -2.5) (xy 5 -2.5)) (layer F.SilkS) (width 0.1))
+)
