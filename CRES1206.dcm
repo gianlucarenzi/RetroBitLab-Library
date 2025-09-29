@@ -85,9 +85,9 @@ F https://lcsc.com/datasheet/lcsc_datasheet_2506161120_YAGEO-RC1206FR-072KL_C133
 $ENDCMP
 #
 $CMP 330R
-D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 330Ω 1206 Chip Resistor - Surface Mount ROHS
+D 250mW 330Ω 200V ±100ppm/℃ Thick Film Resistor ±1% 1206 Chip Resistor - Surface Mount ROHS
 K CR1206330R1%1/4W
-F https://www.lcsc.com/datasheet/C2759157.pdf
+F https://www.lcsc.com/datasheet/C114944.pdf
 $ENDCMP
 #
 $CMP 3K3
