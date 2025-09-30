@@ -63,7 +63,7 @@ $ENDCMP
 $CMP 27R
 D 250mW Thick Film Resistor 200V ±1% ±100ppm/℃ 27Ω 1206 Chip Resistor - Surface Mount ROHS
 K CR120627R1%1/4W
-F https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-1206W4F270JT5E_C17946.pdf
+F N.D.
 $ENDCMP
 #
 $CMP 2K
