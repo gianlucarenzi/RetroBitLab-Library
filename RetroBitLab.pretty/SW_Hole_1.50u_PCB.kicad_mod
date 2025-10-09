@@ -1,27 +1,192 @@
-(module SW_Hole_1.50u_PCB (layer F.Cu) (tedit 614D7065)
-  (descr "Kailh Box keyswitch, 1.50u, PCB mount, https://www.kailhswitch.com/uploads/201815927/CPG1511F01S02-BOX_White.pdf")
-  (tags "Kailh Box keyswitch 1.50u PCB")
-  (fp_text reference REF** (at 0 -7.874) (layer Cmts.User) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value SW_Hole_1.50 (at 0 7.874) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -7 7) (end 7 7) (layer Edge.Cuts) (width 0.12))
-  (fp_line (start -7 -7) (end 7 -7) (layer Edge.Cuts) (width 0.12))
-  (fp_line (start -7 -6) (end -7 6) (layer Edge.Cuts) (width 0.12))
-  (fp_line (start 7 -6) (end 7 6) (layer Edge.Cuts) (width 0.12))
-  (fp_line (start -14.2875 -9.525) (end 14.2875 -9.525) (layer F.SilkS) (width 0.15))
-  (fp_line (start 14.2875 -9.525) (end 14.2875 9.525) (layer F.SilkS) (width 0.15))
-  (fp_line (start 14.2875 9.525) (end -14.2875 9.525) (layer F.SilkS) (width 0.15))
-  (fp_line (start -14.2875 9.525) (end -14.2875 -9.525) (layer F.SilkS) (width 0.15))
-  (fp_arc (start -7 6.5) (end -7 6) (angle -180) (layer Edge.Cuts) (width 0.12))
-  (fp_arc (start 7 6.5) (end 7 7) (angle -180) (layer Edge.Cuts) (width 0.12))
-  (fp_arc (start -7 -6.5) (end -7 -7) (angle -180) (layer Edge.Cuts) (width 0.12))
-  (fp_arc (start 7 -6.5) (end 7 -6) (angle -180) (layer Edge.Cuts) (width 0.12))
-  (model ${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.50u_PCB.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SW_Hole_1.50u_PCB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Kailh Box keyswitch, 1.50u, PCB mount, https://www.kailhswitch.com/uploads/201815927/CPG1511F01S02-BOX_White.pdf")
+	(tags "Kailh Box keyswitch 1.50u PCB")
+	(property "Reference" "REF**"
+		(at 0 -7.874 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "d6e36590-357e-46d1-be10-b8351593bad6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Hole_1.50"
+		(at 0 7.874 0)
+		(layer "F.Fab")
+		(uuid "ec28a18f-358b-4094-8fea-567e127ed446")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d91833c-81d9-4ea8-8b81-37af5febae82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cfa6a96-56e4-487e-8129-b41ec452a0d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -14.2875 -9.525)
+		(end 14.2875 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9eb56c97-7579-44b5-9287-c970a1b8a0d7")
+	)
+	(fp_line
+		(start -14.2875 9.525)
+		(end -14.2875 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5767ff0-04fb-4e64-b292-19573767f3b0")
+	)
+	(fp_line
+		(start 14.2875 -9.525)
+		(end 14.2875 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc03b4f8-55c9-4eaa-b2be-c645fd18fa0f")
+	)
+	(fp_line
+		(start 14.2875 9.525)
+		(end -14.2875 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c9734a0-4113-4c22-8368-3e6533ef2f44")
+	)
+	(fp_line
+		(start -7 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "41792eec-6d58-4347-8f21-7f5fae15cc3a")
+	)
+	(fp_line
+		(start -7 -6)
+		(end -7 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c78512b3-b5de-47c6-8f48-139366ca574b")
+	)
+	(fp_line
+		(start -7 7)
+		(end 7 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bf75f19d-14b8-4b6d-9a85-c13ddb881363")
+	)
+	(fp_line
+		(start 7 -6)
+		(end 7 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6c333730-5e8d-4ed3-b50a-73ce6a0f6370")
+	)
+	(fp_arc
+		(start -7 -6)
+		(mid -7.5 -6.5)
+		(end -7 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ecbaedcb-77c0-4d90-8a68-505e36f9fe1e")
+	)
+	(fp_arc
+		(start -7 7)
+		(mid -7.5 6.5)
+		(end -7 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "381e5d20-d410-4c64-8ce7-cc75cbc09a0e")
+	)
+	(fp_arc
+		(start 7 -7)
+		(mid 7.5 -6.5)
+		(end 7 -6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f6181362-a1d6-48c1-9ec1-f0c2664a0fda")
+	)
+	(fp_arc
+		(start 7 6)
+		(mid 7.5 6.5)
+		(end 7 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4401929e-917e-46c5-b103-b4550f0003f4")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.50u_PCB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

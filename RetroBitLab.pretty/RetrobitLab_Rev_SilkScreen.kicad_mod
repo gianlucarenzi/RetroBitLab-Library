@@ -1,11 +1,68 @@
-(module LOGO (layer F.Cu)
-  (at 0 0)
- (fp_text reference "G***" (at 0 0) (layer F.SilkS) hide
-  (effects (font (thickness 0.3)))
-  )
-  (fp_text value "LOGO" (at 0.75 0) (layer F.SilkS) hide
-  (effects (font (thickness 0.3)))
-  )
-  (fp_poly (pts (xy 4.995333 4.826000) (xy -4.995333 4.826000) (xy -4.995333 -4.826000) (xy 4.995333 -4.826000) (xy 4.995333 4.826000) )(layer F.SilkS) (width  0.010000)
-  )
+(footprint "RetrobitLab_Rev_SilkScreen"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "G***"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5788f72a-d7ce-4680-918b-4225417edc9a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0a860ee9-c5f5-4c54-aa60-4f69c82b7641")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c690eba0-e119-4dbd-821e-c590fb90df18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ef3dbb7-12ec-4dde-a4c0-e2eb9b822f5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 4.995333 4.826) (xy -4.995333 4.826) (xy -4.995333 -4.826) (xy 4.995333 -4.826) (xy 4.995333 4.826)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4d3606f5-7a20-402c-bd37-51e00ac0f5f7")
+	)
+	(embedded_fonts no)
 )

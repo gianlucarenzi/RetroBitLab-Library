@@ -1,10 +1,63 @@
-(module MountingHole (layer F.Cu) (tedit 5C437BC3)
-  (tags MOUNTINGHOLE)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value MountingHole (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at 0 0.508) (size 4 4) (drill 3) (layers *.Cu *.Mask F.SilkS))
+(footprint "MountingHole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "MOUNTINGHOLE")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "36c8caa0-1f51-4c5d-926f-210cc9df7d0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "4fd3540b-fe25-44bd-a179-e099d683af0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c35059bc-cddc-408b-8997-299a3f21a8cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8274dc1a-6e65-4968-8391-db5373454e5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0.508)
+		(size 4 4)
+		(drill 3)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "33027a3c-d065-4a52-aca6-bc1fee8fb876")
+	)
+	(embedded_fonts no)
 )

@@ -1,9 +1,56 @@
-(module LOGO (layer F.Cu)
-  (at 0 0)
- (fp_text reference "G***" (at 0 0) (layer F.SilkS) hide
-  (effects (font (thickness 0.3)))
-  )
-  (fp_text value "LOGO" (at 0.75 0) (layer F.SilkS) hide
-  (effects (font (thickness 0.3)))
-  )
+(footprint "atari_fuji_21.2x25"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "G***"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7df37be3-c0aa-4ffc-b2ee-663fa0eabed1")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f1b3e47f-48b1-4026-b9e7-08723421a7ba")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b1cbe32-9d03-465a-a8fb-93dfa3cde699")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a37c8599-6ff4-4dd0-9f5b-ce899ad1754d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(embedded_fonts no)
 )

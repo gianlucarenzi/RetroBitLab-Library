@@ -1,12 +1,69 @@
-(module Label-10mmx5mm-Silkscreen (layer F.Cu) (tedit 68D28B5B)
-  (descr "Label Silkscreen 10mmx5mm")
-  (tags "Label 10mmx5mm Silkscreen")
-  (attr virtual)
-  (fp_text reference REF** (at 0 -4) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Label-10mmx5mm-Silkscreen (at 0 4) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_poly (pts (xy 5 2.5) (xy -5 2.5) (xy -5 -2.5) (xy 5 -2.5)) (layer F.SilkS) (width 0.1))
+(footprint "Label-10mmx5mm-Silkscreen"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Label Silkscreen 10mmx5mm")
+	(tags "Label 10mmx5mm Silkscreen")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "13a25b8b-6a15-4a0b-a18a-5eb4c7cc6347")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Label-10mmx5mm-Silkscreen"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "4d618260-d4a1-4f6c-bbd3-d6e282d00f02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3407fe85-9251-4220-afac-bc69342ca6ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44485979-53d4-4909-9a87-27545d79d443")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy 5 2.5) (xy -5 2.5) (xy -5 -2.5) (xy 5 -2.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6edc64d1-afec-430f-8275-7eea49ca5419")
+	)
+	(embedded_fonts no)
 )

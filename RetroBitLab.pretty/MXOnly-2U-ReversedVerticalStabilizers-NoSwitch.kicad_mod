@@ -1,19 +1,134 @@
-(module MXOnly-2U-ReversedVerticalStabilizers-NoSwitch (layer F.Cu) (tedit 5EACBE74)
-  (fp_text reference REF** (at 0 3.175) (layer Dwgs.User)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value MXOnly-2U-ReversedVerticalStabilizers-NoSwitch (at 0 -0.5) (layer Dwgs.User) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 9.525 19.05) (end 9.525 -19.05) (layer Dwgs.User) (width 0.15))
-  (fp_line (start 9.525 19.05) (end -9.525 19.05) (layer Dwgs.User) (width 0.15))
-  (fp_line (start -9.525 -19.05) (end 9.525 -19.05) (layer Dwgs.User) (width 0.15))
-  (fp_line (start -9.525 19.05) (end -9.525 -19.05) (layer Dwgs.User) (width 0.15))
-  (fp_text user 2U (at -7.9375 0 270) (layer Dwgs.User)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad "" np_thru_hole circle (at 6.985 11.938 90) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at -8.255 11.938 90) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 6.985 -11.938 180) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at -8.255 -11.938 90) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+(footprint "MXOnly-2U-ReversedVerticalStabilizers-NoSwitch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.175 0)
+		(layer "Dwgs.User")
+		(uuid "f913477c-3541-424d-8852-614fcd09ae3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MXOnly-2U-ReversedVerticalStabilizers-NoSwitch"
+		(at 0 -0.5 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "0ad90392-b4a5-4886-a67f-d141d3f07573")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c2a02d7-2b99-49a5-b017-c0952aca0967")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e84ff457-e0f2-4f6d-a13d-14e522efbca9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.525 -19.05)
+		(end 9.525 -19.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "59b3adc5-d988-4cf9-a241-a87672ca2bdf")
+	)
+	(fp_line
+		(start -9.525 19.05)
+		(end -9.525 -19.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "613aac9a-50e6-4d56-a190-76a9e5887334")
+	)
+	(fp_line
+		(start 9.525 19.05)
+		(end -9.525 19.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d9e0b3bc-013a-4f39-8266-b101361af617")
+	)
+	(fp_line
+		(start 9.525 19.05)
+		(end 9.525 -19.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "411bd390-d102-43cc-ab34-f4c8208be772")
+	)
+	(fp_text user "2U"
+		(at -7.9375 0 270)
+		(layer "Dwgs.User")
+		(uuid "2dd5e347-5ac5-45df-a27d-51bc2e65da06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -8.255 -11.938 90)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0e9ef0b1-1ae8-44fc-b462-a66b843f7b0a")
+	)
+	(pad "" np_thru_hole circle
+		(at -8.255 11.938 90)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "18dd5ed1-ddd0-4ba5-aaa5-3c864e7529e3")
+	)
+	(pad "" np_thru_hole circle
+		(at 6.985 -11.938 180)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e495254d-073b-40c3-aa50-f3df6697ea0c")
+	)
+	(pad "" np_thru_hole circle
+		(at 6.985 11.938 90)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0f2f8c5e-eb9c-417d-8b59-11e3a2ccb2bb")
+	)
+	(embedded_fonts no)
 )

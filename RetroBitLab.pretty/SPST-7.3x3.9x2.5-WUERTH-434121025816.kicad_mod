@@ -1,28 +1,189 @@
-(module SPST-7.3x3.9x2.5-WUERTH-434121025816 (layer F.Cu) (tedit 68B6FF28)
-  (descr "No Without Bracket 50mA 7.3mm 100,000 Cycles 2.6N 12V 4mm 2.5mm Round Button Surface Mount,Vertical SPST SMD Tactile Switches ROHS")
-  (attr smd)
-  (fp_text reference REF** (at -0.2136 -3.4943) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value 434121025816 (at -0.025 3.15) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center -3.65 -1.525) (end -3.55 -1.525) (layer F.SilkS) (width 0.2))
-  (fp_line (start 3.1 2.05) (end 3.1 1.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.1 2.05) (end 3.1 2.05) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.1 1.1) (end -3.1 2.05) (layer F.SilkS) (width 0.2))
-  (fp_line (start 3.1 -2.05) (end 3.1 -1.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.1 -2.05) (end 3.1 -2.05) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.1 -1.1) (end -3.1 -2.05) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3 -1.95) (end -3 1.95) (layer F.Fab) (width 0.1))
-  (fp_line (start 3 -1.95) (end -3 -1.95) (layer F.Fab) (width 0.1))
-  (fp_line (start 3 1.95) (end 3 -1.95) (layer F.Fab) (width 0.1))
-  (fp_line (start -3 1.95) (end 3 1.95) (layer F.Fab) (width 0.1))
-  (pad 1 smd rect (at -3.25 0) (size 1.7 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 3.25 0) (size 1.7 1.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KILIBPATH}/RetroBitLab.3dshapes/WUERTH-SPST-FSMSM-7.3x3.9x2.5-434121025816.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SPST-7.3x3.9x2.5-WUERTH-434121025816"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "No Without Bracket 50mA 7.3mm 100,000 Cycles 2.6N 12V 4mm 2.5mm Round Button Surface Mount,Vertical SPST SMD Tactile Switches ROHS")
+	(property "Reference" "REF**"
+		(at -0.2136 -3.4943 0)
+		(layer "F.SilkS")
+		(uuid "2650608f-68c0-4a7c-bd49-6accd8713c83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "434121025816"
+		(at -0.025 3.15 0)
+		(layer "F.Fab")
+		(uuid "a7102454-bb35-4a89-850c-86e892fc423a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ab88a22-b387-4820-9e8c-99eb4211b8f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "781bb5e6-f542-4ac2-9054-399d6a3157e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -2.05)
+		(end 3.1 -2.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7862c76-5836-42b9-af5b-74f17949d734")
+	)
+	(fp_line
+		(start -3.1 -1.1)
+		(end -3.1 -2.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3cc4bfd-0955-40f1-85e7-23098d95d012")
+	)
+	(fp_line
+		(start -3.1 1.1)
+		(end -3.1 2.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "473db872-02c4-4a0c-b9a5-c58363c118ec")
+	)
+	(fp_line
+		(start -3.1 2.05)
+		(end 3.1 2.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f595caac-96ed-4ee1-b1d1-697887aa535e")
+	)
+	(fp_line
+		(start 3.1 -2.05)
+		(end 3.1 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "808b500c-e15a-4129-9451-f7427e3c9a2c")
+	)
+	(fp_line
+		(start 3.1 2.05)
+		(end 3.1 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05320eb4-aaa1-498c-aa18-ab0863b43241")
+	)
+	(fp_circle
+		(center -3.65 -1.525)
+		(end -3.55 -1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d3fef25e-9fe6-4904-a5f9-0cd76cf909d3")
+	)
+	(fp_line
+		(start -3 -1.95)
+		(end -3 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b995793-bd49-41f8-aae2-2662d4d0675c")
+	)
+	(fp_line
+		(start -3 1.95)
+		(end 3 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5386e09-64a1-4b21-8f9a-978457561c0d")
+	)
+	(fp_line
+		(start 3 -1.95)
+		(end -3 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "442e36c4-febc-40d5-b4f1-85171477ddd2")
+	)
+	(fp_line
+		(start 3 1.95)
+		(end 3 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cc04eb6-b1b4-4958-bc31-de9cf689eb43")
+	)
+	(pad "1" smd rect
+		(at -3.25 0)
+		(size 1.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f08ed4f-4057-4e40-a7dc-d9785b51083f")
+	)
+	(pad "2" smd rect
+		(at 3.25 0)
+		(size 1.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "994df287-f39b-4aa0-9a98-b3417691e937")
+	)
+	(embedded_fonts no)
+	(model "${KILIBPATH}/RetroBitLab.3dshapes/WUERTH-SPST-FSMSM-7.3x3.9x2.5-434121025816.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
