@@ -2683,12 +2683,13 @@
 			)
 		)
 		(property "Value" "434121025816"
-			(at -5.08 -3.048 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "434121025816"
@@ -2717,16 +2718,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "434121025816"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -40679,7 +40670,7 @@
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "L"
 			(at 0 0 0)
@@ -50448,12 +50439,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PES1 Seies 1 W 12 VDC 84 mA Single Output DC-DC Isolated Converter"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -50468,16 +50460,6 @@
 			)
 		)
 		(property "AVAILABILITY" "Bad"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "PES1 Seies 1 W 12 VDC 84 mA Single Output DC-DC Isolated Converter"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50657,12 +50639,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PES1 Seies 1 W 9 VDC 111 mA Single Output DC-DC Isolated Converter"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -50677,16 +50660,6 @@
 			)
 		)
 		(property "AVAILABILITY" "Bad"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "PES1 Seies 1 W 9 VDC 111 mA Single Output DC-DC Isolated Converter"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55520,16 +55493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector"
+		(property "Description" "3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector"
 			(at 0 0 0)
 			(effects
 				(font
