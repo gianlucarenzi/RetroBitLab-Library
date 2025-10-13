@@ -154,10 +154,22 @@ K connector header 2x8 p2.54mm SMD
 F https://www.lcsc.com/datasheet/C3975153.pdf
 $ENDCMP
 #
+$CMP CUS10S30,H3F
+D 5A 30V 230mV@100mA 400mV@1A 1A SC-76(SOD-323) Single Diodes ROHS
+K diode Schottky 30V
+F https://www.lcsc.com/datasheet/C146335.pdf
+$ENDCMP
+#
 $CMP DIOSCH20V
 D 20V 500mV@3A 4A SMC(DO-214AB) Schottky Diodes ROHS
 K diode Schottky 20V
 F https://www.lcsc.com/datasheet/C236151.pdf
+$ENDCMP
+#
+$CMP DISOSCH30V
+D 5A 30V 230mV@100mA 400mV@1A 1A SC-76(SOD-323) Single Diodes ROHS
+K diode Schottky 30V
+F https://www.lcsc.com/datasheet/C146335.pdf
 $ENDCMP
 #
 $CMP DS1038-15FBNSiA74-0CC
