@@ -48,10 +48,22 @@ K CRES12101K100PPM1%1/2W
 F https://lcsc.com/datasheet/lcsc_datasheet_2408150952_FOJAN-FRC1210F1001TS_C2960861.pdf
 $ENDCMP
 #
+$CMP 1K5
+D 500mW 1.5kΩ 200V ±100ppm/℃ Thick Film Resistor ±1% 1210 Chip Resistor - Surface Mount ROHS
+K CRES12101K5100PPM1%1/2W
+F https://www.lcsc.com/datasheet/C2999566.pdf
+$ENDCMP
+#
 $CMP 220R
 D 500mW Thick Film Resistor 200V ±100ppm/℃ ±1% 220Ω 1210 Chip Resistor - Surface Mount ROHS
 K CRES1210220R1%1/2W
 F https://www.lcsc.com/datasheet/C3000591.pdf
+$ENDCMP
+#
+$CMP 22R
+D 22Ω 500mW 200V ±100ppm/℃ Thick Film Resistor ±1% 1210 Chip Resistor - Surface Mount ROHS
+K CRES121022R1%1/2W
+F https://www.lcsc.com/datasheet/C2960863.pdf
 $ENDCMP
 #
 $CMP 270R

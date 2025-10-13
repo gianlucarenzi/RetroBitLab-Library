@@ -48,10 +48,22 @@ K CR12061K1%1/4W
 F https://lcsc.com/datasheet/lcsc_datasheet_2506161120_YAGEO-RC1206FR-071KL_C131398.pdf
 $ENDCMP
 #
+$CMP 1K5
+D 250mW 1.5kΩ 200V ±100ppm/℃ Thick Film Resistor ±1% 1206 Chip Resistor - Surface Mount ROHS
+K CR12061K51%1/4W
+F https://www.lcsc.com/datasheet/C26030.pdf
+$ENDCMP
+#
 $CMP 220R
 D 250mW Thick Film Resistor 200V ±100ppm/℃ ±1% 220Ω 1206 Chip Resistor - Surface Mount ROHS
 K CR1206220R1%1/4W
 F https://www.lcsc.com/datasheet/C137353.pdf
+$ENDCMP
+#
+$CMP 22R
+D 22Ω 250mW 200V ±100ppm/℃ Thick Film Resistor ±1% 1206 Chip Resistor - Surface Mount ROHS
+K CR120622R1%1/4W
+F https://www.lcsc.com/datasheet/C17958.pdf
 $ENDCMP
 #
 $CMP 270R
