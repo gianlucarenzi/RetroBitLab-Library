@@ -26397,7 +26397,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C194334.pdf"
-			(at 1.016 0 0)
+			(at -0.635 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26406,7 +26406,7 @@
 			)
 		)
 		(property "Description" "NAND Gate SOIC-14 Gates and Inverters ROHS"
-			(at 0 0 0)
+			(at 0.635 -8.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26550,8 +26550,8 @@
 				)
 			)
 			(pin output inverted
-				(at 5.715 0 180)
-				(length 3.81)
+				(at 5.842 0 180)
+				(length 3.937)
 				(name "4Y"
 					(effects
 						(font
@@ -26654,8 +26654,8 @@
 				)
 			)
 			(pin output inverted
-				(at 5.715 0 180)
-				(length 3.81)
+				(at 5.842 0 180)
+				(length 3.937)
 				(name "4Y"
 					(effects
 						(font
@@ -26758,8 +26758,8 @@
 				)
 			)
 			(pin output inverted
-				(at 5.715 0 180)
-				(length 3.81)
+				(at 5.842 0 180)
+				(length 3.937)
 				(name "4Y"
 					(effects
 						(font
@@ -26862,8 +26862,8 @@
 				)
 			)
 			(pin output inverted
-				(at 5.715 0 180)
-				(length 3.81)
+				(at 5.842 0 180)
+				(length 3.937)
 				(name "4Y"
 					(effects
 						(font
@@ -26893,8 +26893,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 6.985 270)
-				(length 2.54)
+				(at 0 7.112 270)
+				(length 2.667)
 				(name "VCC"
 					(effects
 						(font
@@ -30589,6 +30589,165 @@
 			)
 		)
 		(symbol "DIOSCH20V_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DIOSCH30V-SC-76_(SOD-323)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CUS10S30,H3F"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C146335.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A 30V 230mV@100mA 1A SC-76(SOD-323) Single Diodes ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146335"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode Schottky 20V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DIOSCH30V-SC-76_(SOD-323)_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DIOSCH30V-SC-76_(SOD-323)_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
