@@ -30691,7 +30691,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "diode Schottky 20V"
+		(property "ki_keywords" "diode Schottky 20V CUS10S30,H3F"
 			(at 0 0 0)
 			(effects
 				(font
