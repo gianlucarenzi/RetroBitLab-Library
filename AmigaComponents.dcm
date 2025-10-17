@@ -166,6 +166,12 @@ K connector header 2x8 p2.54mm SMD
 F https://www.lcsc.com/datasheet/C3975153.pdf
 $ENDCMP
 #
+$CMP CONN_SMD_HEADER_02x08_Odd_Even_2.54mm
+D 16P 2x8P Gold Brass -40℃~+105℃ Black Pin Header 2.54mm 2.5mm 6mm 1kV 3A 2 Surface Mount,Vertical 2.54mm SMD,P=2.54mm Headers, Male Pins ROHS
+K connector header pin 2x8 p2.54mm SMD
+F https://www.lcsc.com/datasheet/C32713288.pdf
+$ENDCMP
+#
 $CMP CUS10S30,H3F
 D 5A 30V 230mV@100mA 400mV@1A 1A SC-76(SOD-323) Single Diodes ROHS
 K diode Schottky 30V
