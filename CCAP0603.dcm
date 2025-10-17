@@ -48,6 +48,18 @@ K CCAP060327PC0G5%500V
 F https://lcsc.com/datasheet/
 $ENDCMP
 #
+$CMP 470nF
+D 50V 470nF X7R ±10% 0603 Ceramic Capacitors ROHS
+K CCAP0603470NX7R10%50V CAP CER 47nF 50V X7R 0603
+F https://www.lcsc.com/datasheet/C77572.pdf
+$ENDCMP
+#
+$CMP 47nF
+D 50V 47nF X7R ±20% 0603 Ceramic Capacitors ROHS
+K CCAP060347NX7R20%50V CAP CER 47nF 50V X7R 0603
+F https://www.lcsc.com/datasheet/C696860.pdf
+$ENDCMP
+#
 $CMP 47uF
 D 16V 47uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP060347UX5R20%16V

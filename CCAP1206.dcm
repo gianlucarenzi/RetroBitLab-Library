@@ -66,6 +66,18 @@ K CCAP12064.7UX7R20%100V
 F https://lcsc.com/datasheet/lcsc_datasheet_2410121646_Chinocera-HHV1206R7475M101NSPJ_C33546020.pdf
 $ENDCMP
 #
+$CMP 470nF
+D 50V 470nF X7R ±10% 1206 Ceramic Capacitors ROHS
+K CCAP1206470NX7R10%50V CAP CER 470nF 50V X7R 1206
+F https://www.lcsc.com/datasheet/C277483.pdf
+$ENDCMP
+#
+$CMP 47nF
+D 50V 47nF X7R ±10% 1206 Ceramic Capacitors ROHS
+K CCAP120647NX7R10%50V CAP CER 47nF 50V X7R 1206
+F https://www.lcsc.com/datasheet/C5448943.pdf
+$ENDCMP
+#
 $CMP 47uF
 D 16V 47uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP120647UX5R20%16V

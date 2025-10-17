@@ -60,6 +60,18 @@ K CCAP12104.7UX7S20%100V
 F https://lcsc.com/datasheet/lcsc_datasheet_2505151214_HRE-CGA1210X7S475M101RT_C6120043.pdf
 $ENDCMP
 #
+$CMP 470nF
+D 50V 470nF X7R ±10% 1210 Ceramic Capacitors ROHS
+K CCAP1210470UX7R10%50V
+F https://lcsc.com/datasheet/lcsc_datasheet_2507231706_Taiyo-Yuden-EMK325BJ476MM-P_C412625.pdf
+$ENDCMP
+#
+$CMP 47nF
+D 50V 47nF X7R ±10% 1210 Ceramic Capacitors ROHS
+K CCAP121047NX7R10%50V
+F https://www.lcsc.com/datasheet/C2254850.pdf
+$ENDCMP
+#
 $CMP 47uF
 D 16V 47uF X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP121047UX5R20%16V
