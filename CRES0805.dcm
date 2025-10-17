@@ -174,6 +174,12 @@ K CRES08056K491%1/8W
 F https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0805F6491TS_C2933484.pdf
 $ENDCMP
 #
+$CMP 75R
+D 75Ω 250mW 150V ±100ppm/℃ Thick Film Resistor ±1% 0805 Chip Resistor - Surface Mount ROHS
+K CRES080575R1%1/4W
+F https://www.lcsc.com/datasheet/C20142801.pdf
+$ENDCMP
+#
 $CMP 820R
 D 125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 820Ω 0805 Chip Resistor - Surface Mount ROHS
 K CRES0805820R1%1/8W
