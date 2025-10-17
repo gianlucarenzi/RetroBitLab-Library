@@ -11,6 +11,12 @@ K quartz ceramic resonator oscillator CRYSTAL 12MHz 20pF SMD X322512MSB4SI
 F https://www.lcsc.com/datasheet/C9002.pdf
 $ENDCMP
 #
+$CMP 24.756Mhz
+D Crystal Oscillator 12pF SMD3225-4P Crystals ROHS
+K quartz ceramic resonator oscillator CRYSTAL 24.576MHz 12pF SMD 3225 4 pin
+F https://www.lcsc.com/datasheet/C9002.pdf
+$ENDCMP
+#
 $CMP 6571R4_PLCC44_MPUKEY_REV
 D Microprocessor Keyboard MPU Amiga 600 (version PLCC 44 pins)
 K MPU U13
@@ -142,6 +148,12 @@ K microSD uSD SDCard
 F https://www.lcsc.com/datasheet/C114218.pdf
 $ENDCMP
 #
+$CMP CONN_HDMI_A
+D HDMI type A connector HDMI-A SMD USB, DVI, HDMI Connector Assemblies ROHS
+K hdmi conn CONN RCPT HDMI 19POS SMD R/A
+F https://www.lcsc.com/datasheet/C720616.pdf
+$ENDCMP
+#
 $CMP CONN_SMD_01x08_Staggered_2.54mm
 D 2.54mm 3A 1 Gold 8P -40℃~+105℃ Surface Mount,Vertical 1x8P 5mm Top Square Hole SMD,P=2.54mm(Staggered Pins) Female Headers ROHS
 K CONN SOCKET 8POS 2.54mm SINGLE ROW SMD
@@ -213,6 +225,12 @@ $CMP FB0805100R100MHZ4A
 D 20mΩ ±25% 100Ω@100MHz 0805 Ferrite Beads ROHS
 K Ferrite Bead 100R 100MHz 4A 0805
 F https://www.lcsc.com/datasheet/C15957.pdf
+$ENDCMP
+#
+$CMP FB080590R100MHZ850mA
+D 150mΩ ±25% 90Ω@100MHz 0805 Ferrite Beads and Chips ROHS
+K Ferrite Bead 90R 100MHz 850mA 0805
+F https://www.lcsc.com/datasheet/C50325938.pdf
 $ENDCMP
 #
 $CMP FB1206100R100MHZ4A
@@ -318,6 +336,18 @@ $CMP MOSFET-BSS138-SOT-23
 D 50V 200mA 225mW 5.6Ω@2.75V 500mV 1 N-Channel SOT-23 MOSFETs ROHS
 K BSS138
 F https://www.lcsc.com/datasheet/C82045.pdf
+$ENDCMP
+#
+$CMP MS9288A
+D I2C QFN-48-EP(6x6) Video Processing ROHS RGB/YPbPr to HD Converter
+K Macrosilicon MS9288A Analog RGB to HD Converter VGA HDMI
+F https://www.lcsc.com/datasheet/C5295922.pdf
+$ENDCMP
+#
+$CMP MS9288C
+D I2C QFN-48-EP(6x6) Video Processing ROHS
+K Macrosilicon MS9288C Analog RGB to HD Converter VGA HDMI
+F https://www.lcsc.com/datasheet/C2914316.pdf
 $ENDCMP
 #
 $CMP PJ-002AH-SMT-TR
