@@ -19,9 +19,9 @@ F https://lcsc.com/datasheet/
 $ENDCMP
 #
 $CMP 10uF
-D 50V 10uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-K CCAP080510UX5R20%50V
-F https://lcsc.com/datasheet/
+D 50V 10uF X5R ±10% 0805 Ceramic Capacitors ROHS
+K CCAP080510UX5R10%50V
+F https://www.lcsc.com/datasheet/C440198.pdf
 $ENDCMP
 #
 $CMP 1uF
