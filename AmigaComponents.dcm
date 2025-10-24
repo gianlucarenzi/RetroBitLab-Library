@@ -172,6 +172,12 @@ K connector header pin 2x8 p2.54mm SMD
 F https://www.lcsc.com/datasheet/C32713288.pdf
 $ENDCMP
 #
+$CMP CONN_SMD_HEADER_BOX_02x08_Odd_Even_2.54mm
+D 2.54mm -40℃~+105℃ 3A 2x8P 8 2 IDC Header 2.54mm Surface Mount,Vertical SMD,P=2.54mm Free Hanging, Panel Mount ROHS
+K connector header with box pin 2x8 p2.54mm SMD
+F https://www.lcsc.com/datasheet/C2685064.pdf
+$ENDCMP
+#
 $CMP CUS10S30,H3F
 D 5A 30V 230mV@100mA 400mV@1A 1A SC-76(SOD-323) Single Diodes ROHS
 K diode Schottky 30V
