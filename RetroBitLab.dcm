@@ -136,7 +136,7 @@ D IC GATE AND 2CH 4-INP 14SOIC
 F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd74hct21
 $ENDCMP
 #
-$CMP CONN_02x16_PIN_SMD_Counter_Clockwise
+$CMP CONN_02x16_PIN_SMD_Odd_Even_2.54mm
 D Gold 250V 3A Pin Header 2.54mm 32P 6mm -40℃~+105℃ 2.54mm Brass 2 Black 2.54mm 2x16P SMD,P=2.54mm Pin Headers ROHS
 K CONN HEADER 32POS 2.54mm DUAL ROW SMD
 F https://www.lcsc.com/datasheet/C6332241.pdf
