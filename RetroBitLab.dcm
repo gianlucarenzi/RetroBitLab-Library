@@ -392,6 +392,18 @@ K Audio Connector 3.5mm STEREO
 F https://www.lcsc.com/datasheet/C4991872.pdf
 $ENDCMP
 #
+$CMP SN74HCT10PW
+D Triple 3-input NAND
+K TTL Nand3
+F https://www.lcsc.com/datasheet/C54929581.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=EQINBVNfRwJZUQAETgVbVwBQQFZaU1ZQQQIKBlMDEQIxVlNeR1VZV1JSQlRfUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktfT1BADxALGw%3D%3D
+$ENDCMP
+#
+$CMP SN74HCT138
+D Decoder 3 to 8 active low outputs
+K TTL DECOD DECOD8
+F http://www.ti.com/lit/gpn/sn74LS138
+$ENDCMP
+#
 $CMP SPST2P
 D Vertical SPST SMD Tactile Switches ROHS No Without Bracket 50mA 7.3mm 100,000 Cycles 2.6N 12V 4mm 2.5mm Round Button Surface Mount,Vertical SPST SMD Tactile Switches ROHS
 K switch normally-open pushbutton push-button
