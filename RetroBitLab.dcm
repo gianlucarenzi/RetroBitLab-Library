@@ -392,6 +392,12 @@ K Audio Connector 3.5mm STEREO
 F https://www.lcsc.com/datasheet/C4991872.pdf
 $ENDCMP
 #
+$CMP SN74HCT04DR
+D 6 ports HEX INVERTER
+K NOT 7404 74LS04 74HC04 74HCT04
+F https://www.lcsc.com/datasheet/C6766.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=EQINBVNfRwJZUQAETgVbVwBQQFZaU1ZQQQIKBlMDEQIxVlNeR1VWVVNURVBbVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D
+$ENDCMP
+#
 $CMP SN74HCT10PW
 D Triple 3-input NAND
 K TTL Nand3
