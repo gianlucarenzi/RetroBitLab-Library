@@ -223,6 +223,12 @@ K XTAL OSC 25MHz CMOS SMD
 F https://www.lcsc.com/datasheet/C2441279.pdf
 $ENDCMP
 #
+$CMP EM74LVC10APW
+D Triple 3-input NAND
+K TTL Nand3
+F https://www.lcsc.com/datasheet/C49188171.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=EQINBVNfRwJZUQAETgVbVwBQQFZaU1ZQQQIKBlMDEQIxVlNeRlFfUlNXR1ZfVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQ1lbV1NSWQkaCgg%3D
+$ENDCMP
+#
 $CMP ESP32-BOBOARD-LOGO
 D Board Logo
 $ENDCMP
@@ -231,6 +237,12 @@ $CMP ESP32-PICO-D4
 D 150Mbps 2.412GHz~2.484GHz 2.4GHz -97dBm QFN-48-EP(7x7) RF Transceiver ICs ROHS
 K ESPRESSIF ESP32-PICO-D4
 F https://www.lcsc.com/datasheet/C193707.pdf
+$ENDCMP
+#
+$CMP ESP32-S3FN8
+D Xtensa 32-bit Lx7 dual-core microprocessor, 2.4 GHz Wi-Fi and Bluetooth 5
+K ESP32-S3
+F https://documentation.espressif.com/esp32-s3_datasheet_en.pdf
 $ENDCMP
 #
 $CMP FAN5331
@@ -406,6 +418,18 @@ $ENDCMP
 #
 $CMP SN74HCT138
 D Decoder 3 to 8 active low outputs
+K TTL DECOD DECOD8
+F http://www.ti.com/lit/gpn/sn74LS138
+$ENDCMP
+#
+$CMP SN74LVC04ADR
+D 6 ports HEX INVERTER
+K NOT 7404 74LV04 74LVC04
+F https://www.lcsc.com/datasheet/C485074.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=EQINBVNfRwJZUQAETgVbVwBQQFZaU1ZQQQIKBlMDEQIxVlNeRlFfUlZTRlZfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQ1lbV1NRWQkaCgg%3D
+$ENDCMP
+#
+$CMP SN74LVC138APWR
+D 3-Line to 8-Line Decoders/Demultiplexers
 K TTL DECOD DECOD8
 F http://www.ti.com/lit/gpn/sn74LS138
 $ENDCMP
