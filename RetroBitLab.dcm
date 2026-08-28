@@ -28,6 +28,12 @@ K 74CBTLV3126PW,118
 F https://www.lcsc.com/datasheet/C543078.pdf
 $ENDCMP
 #
+$CMP 74LVC4245APW_118
+D Octal dual supply translating transceiver; 3-state
+K 74245, 245
+F https://www.lcsc.com/datasheet/C6091.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=EQINBVNfRwJZUQAETgVbVwBQQFZaU1ZQQQIKBlMDEQIxVlNeQFldV1VRQFFWVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D
+$ENDCMP
+#
 $CMP 8MHzC
 D 8MHz Crystal Oscillator 20pF ±20ppm ±30ppm HC-49S-SMD Crystals ROHS
 K quartz ceramic resonator oscillator 8MHz
