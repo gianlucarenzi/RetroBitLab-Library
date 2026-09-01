@@ -55,9 +55,9 @@ F https://www.lcsc.com/datasheet/C6119967.pdf
 $ENDCMP
 #
 $CMP 27pF
-D 500V 27pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-K CCAP120627PC0G5%500V
-F https://lcsc.com/datasheet/
+D 50V 27pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+K CCAP120627PC0G5%50V
+F https://www.lcsc.com/datasheet/C1899.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.6.xh&lcsc_vid=EQINBVNfRwJZUQAETgVbVwBQQFZaU1ZQQQIKBlMDEQIxVlNeT1NbVFdeT1hWVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVNdUFJSQlFADxALGw%3D%3D
 $ENDCMP
 #
 $CMP 4.7uF

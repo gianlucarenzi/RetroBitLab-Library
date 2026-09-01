@@ -48,12 +48,6 @@ K CCAP121022UX7R20%16V
 F https://lcsc.com/datasheet/lcsc_datasheet_2410121924_IHHEC-C1210X225M101T_C106116.pdf
 $ENDCMP
 #
-$CMP 27pF
-D 500V 27pF C0G ±5% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-K CCAP121027PC0G5%500V
-F https://lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-FM32N270J501EMG_C22376450.pdf
-$ENDCMP
-#
 $CMP 4.7uF
 D 100V 4.7uF X7S ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP12104.7UX7S20%100V
