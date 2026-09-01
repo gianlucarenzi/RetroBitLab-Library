@@ -17,6 +17,12 @@ K quartz ceramic resonator oscillator CRYSTAL 24.576MHz 12pF SMD 3225 4 pin
 F https://www.lcsc.com/datasheet/C9002.pdf
 $ENDCMP
 #
+$CMP 40.000Mhz
+D CRYSTAL 40MHz 15pF SMD (need 27pF)
+K quartz ceramic resonator oscillator CRYSTAL 40MHz 15pF SMD2520-4P
+F https://www.lcsc.com/datasheet/C284176.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.19.xh&lcsc_vid=EQINBVNfRwJZUQAETgVbVwBQQFZaU1ZQQQIKBlMDEQIxVlNeT1NbVVFfT1BbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlVWUFJSRlFADxALGw%3D%3D
+$ENDCMP
+#
 $CMP 6571R4_PLCC44_MPUKEY_REV
 D Microprocessor Keyboard MPU Amiga 600 (version PLCC 44 pins)
 K MPU U13
@@ -297,6 +303,12 @@ $CMP ICE5LP1K-SG48
 D iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN
 K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
+$ENDCMP
+#
+$CMP IND0603600R100MHZ300mA
+D 24nH 0603 300mA 600mΩ ±5% 12@100MHz Fixed High Frequency Inductor Chips ROHS
+K Fixed Inductor Chip 600mOhm 100MHz 300mA 0603 24nH
+F https://www.lcsc.com/datasheet/C139271.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=EQINBVNfRwJZUQAETgVbVwBQQFZaU1ZQQQIKBlMDEQIxVlNeT1NbU1ReRlVZVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQ1FaUVBXWQkaCgg%3D
 $ENDCMP
 #
 $CMP IS61WV5128BL-10
