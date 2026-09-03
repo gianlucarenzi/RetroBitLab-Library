@@ -11,7 +11,7 @@ K quartz ceramic resonator oscillator CRYSTAL 12MHz 20pF SMD X322512MSB4SI
 F https://www.lcsc.com/datasheet/C9002.pdf
 $ENDCMP
 #
-$CMP 24.756Mhz
+$CMP 24.576Mhz
 D Crystal Oscillator 12pF SMD3225-4P Crystals ROHS
 K quartz ceramic resonator oscillator CRYSTAL 24.576MHz 12pF SMD 3225 4 pin
 F https://www.lcsc.com/datasheet/C9002.pdf
