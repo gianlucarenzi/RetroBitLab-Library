@@ -28,10 +28,34 @@ D Microprocessor Keyboard MPU Amiga 600 (version PLCC 44 pins)
 K MPU U13
 $ENDCMP
 #
+$CMP 7400
+D quad 2-input NAND gate
+K TTL nand 2-input
+F http://www.ti.com/lit/gpn/sn7400
+$ENDCMP
+#
 $CMP 74CBTLV3126PW,118
 D 2.3V~3.6V TSSOP-14 Signal Switches, Multiplexers, Decoders ROHS
 K 74CBTLV3126PW,118
 F https://www.lcsc.com/datasheet/C543078.pdf
+$ENDCMP
+#
+$CMP 74HC00
+D quad 2-input NAND gate
+K HCMOS nand 2-input
+F http://www.ti.com/lit/gpn/sn74hc00
+$ENDCMP
+#
+$CMP 74HCT00
+D quad 2-input NAND gate
+K HCTMOS nand 2-input
+F http://www.ti.com/lit/gpn/sn74hct00
+$ENDCMP
+#
+$CMP 74LS37
+D quad 2-input NAND buffer
+K TTL nand 2-input buffer
+F http://www.ti.com/lit/gpn/sn74ls37
 $ENDCMP
 #
 $CMP 74LVC4245APW_118
@@ -446,6 +470,12 @@ K TTL DECOD DECOD8
 F http://www.ti.com/lit/gpn/sn74LS138
 $ENDCMP
 #
+$CMP SN74LVC00
+D quad 2-input NAND gate
+K QUADRUPLE 2-INPUT POSITIVE-NAND GATES
+F https://www.lcsc.com/datasheet/C7803.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.6.xh&lcsc_vid=QAIPVVVVRlJXV1FQQABeBQAAQQNaVFMAR1IIXwYHFlgxVlNfRFFeV11SRVFWXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D
+$ENDCMP
+#
 $CMP SN74LVC04ADR
 D 6 ports HEX INVERTER
 K NOT 7404 74LV04 74LVC04
@@ -456,6 +486,12 @@ $CMP SN74LVC138APWR
 D 3-Line to 8-Line Decoders/Demultiplexers
 K TTL DECOD DECOD8
 F http://www.ti.com/lit/gpn/sn74LS138
+$ENDCMP
+#
+$CMP SN74LVC1G07DBVR
+D Single buffer/driver with open-drain output, 1.65-5.5 V, SOT-23-5
+K buffer open drain open-collector 1G07 LVC
+F https://www.lcsc.com/datasheet/C7829.pdf
 $ENDCMP
 #
 $CMP SPST2P
