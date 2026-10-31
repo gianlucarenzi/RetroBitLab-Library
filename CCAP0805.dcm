@@ -36,6 +36,12 @@ K CCAP08052.2UX7R20%50V
 F https://lcsc.com/datasheet/lcsc_datasheet_2410121534_CCTC-TCC0805X7R225M500FT_C7393943.pdf
 $ENDCMP
 #
+$CMP 2.2uF-X5R
+D 50V 2.2uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS (Samsung CL21A225KBQNNNE, JLCPCB Basic)
+K CCAP08052.2UX5R10%50V
+F https://www.lcsc.com/datasheet/C377773.pdf
+$ENDCMP
+#
 $CMP 22pF
 D 50V 22pF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
 K CCAP080522PC0G5%50V
