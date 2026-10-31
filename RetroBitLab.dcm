@@ -190,6 +190,12 @@ K CONN HEADER 32POS 2.54mm DUAL ROW SMD
 F https://www.lcsc.com/datasheet/C6332241.pdf
 $ENDCMP
 #
+$CMP CONN_AUDIO_JACK_3.5_PJ313D
+D 3.5mm stereo audio jack, SMD, right angle, TRS, 30V 0.5A (SHOU HAN PJ-313D, JLCPCB C668608). Pin 1 sleeve (A), 2 tip (C), 3 ring (B)
+K Audio Connector 3.5mm STEREO jack TRS PJ-313D
+F https://www.lcsc.com/datasheet/C668608.pdf
+$ENDCMP
+#
 $CMP CONN_DM3AT-SF-PEJM5
 D -25℃~+85℃ 1.68mm Connector and Ejector MicroSD Card (TF Card) Push-Push SMD SD Card / Memory Card Connector ROHS
 K microSD uSD SDCard
