@@ -272,9 +272,9 @@ K ATARI XE ECI
 $ENDCMP
 #
 $CMP ECS-2033-250-BN
-D 3.3V 13mA 25MHz CMOS SMD2520-4P Crystal Oscillators ROHS
-K XTAL OSC 25MHz CMOS SMD
-F https://www.lcsc.com/datasheet/C2441279.pdf
+D 25MHz CMOS oscillator, 1.8~3.3V, ±20ppm, SMD2520-4P (YXC OT3EL89CJI-111YLC-25M, JLCPCB C7471623; replaces ECS-2033-250-BN, same pinout and footprint). Pin 1 tri-state: high or open = output on
+K XTAL OSC 25MHz CMOS SMD YXC ECS-2033
+F https://www.lcsc.com/datasheet/C7471623.pdf
 $ENDCMP
 #
 $CMP EM74LVC10APW
