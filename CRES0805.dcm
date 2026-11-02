@@ -183,7 +183,7 @@ $ENDCMP
 $CMP 75R
 D 75Ω 250mW 150V ±100ppm/℃ Thick Film Resistor ±1% 0805 Chip Resistor - Surface Mount ROHS
 K CRES080575R1%1/4W
-F https://www.lcsc.com/datasheet/C20142801.pdf
+F https://www.lcsc.com/datasheet/C317238.pdf
 $ENDCMP
 #
 $CMP 820R
