@@ -47,9 +47,4 @@
     (scale (xyz 0.625 1 1))
     (rotate (xyz 0 0 -90))
   )
-  (model ${KILIBPATH}/RetroBitLab.3dshapes/DSA-ISO-ENTER.step
-    (offset (xyz -11 -4 9))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
 )

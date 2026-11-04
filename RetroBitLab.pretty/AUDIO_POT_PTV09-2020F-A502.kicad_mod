@@ -34,7 +34,7 @@
   (pad 3 thru_hole circle (at 2.5 3.3) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole rect (at 4.1 0) (size 2.5 2.5) (drill 2.2) (layers *.Cu *.Mask))
   (pad 5 thru_hole rect (at -4.1 0) (size 2.5 2.5) (drill 2.2) (layers *.Cu *.Mask))
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/R-0901N-L-20KT_H-10.step
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/R-0901N-L-20KT_H-10.step
     (offset (xyz 0 -3.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

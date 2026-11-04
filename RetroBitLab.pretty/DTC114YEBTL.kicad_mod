@@ -55,7 +55,7 @@
   (pad 1 smd rect (at -0.499999 0.6731) (size 0.3556 0.762) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.499999 0.6731) (size 0.3556 0.762) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0 -0.6731) (size 0.3556 0.762) (layers F.Cu F.Paste F.Mask))
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/TRANS_2SC4617EB_ROM.step
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/TRANS_2SC4617EB_ROM.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -39,7 +39,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/694106301002 (rev1).stp"
+  (model "${KILIBPATH}/RetroBitLab.3dshapes/694106301002 (rev1).stp"
     (offset (xyz 0 -10 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

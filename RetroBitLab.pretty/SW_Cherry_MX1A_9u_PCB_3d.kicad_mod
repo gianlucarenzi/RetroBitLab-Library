@@ -59,9 +59,4 @@
     (scale (xyz 1.25 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KILIBPATH}/RetroBitLab.3dshapes/DSA-9u.step
-    (offset (xyz -88 4.5 9))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
 )

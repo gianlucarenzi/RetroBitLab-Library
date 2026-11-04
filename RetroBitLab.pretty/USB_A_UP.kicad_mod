@@ -21,7 +21,7 @@
   (pad 1 thru_hole circle (at 0.00086 -0.00212 270) (size 1.50114 1.50114) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 5 thru_hole circle (at 10.16086 2.66488 270) (size 2.99974 2.99974) (drill 2.30124) (layers *.Cu *.Mask F.SilkS))
   (pad 5 thru_hole circle (at -3.55514 2.66488 270) (size 2.99974 2.99974) (drill 2.30124) (layers *.Cu *.Mask F.SilkS))
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/CUI_DEVICES_UJ2-AH-4-TH.step
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/CUI_DEVICES_UJ2-AH-4-TH.step
     (offset (xyz 4.5 -6 3.5))
     (scale (xyz 1.1 1 1))
     (rotate (xyz -90 0 -180))

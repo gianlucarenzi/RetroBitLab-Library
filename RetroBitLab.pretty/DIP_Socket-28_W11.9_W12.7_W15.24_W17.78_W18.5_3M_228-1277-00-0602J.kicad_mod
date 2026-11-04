@@ -89,7 +89,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/textool.stp
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/textool.stp
     (offset (xyz -9.5 -72.5 0))
     (scale (xyz 1.4 1.5 1))
     (rotate (xyz 0 0 -90))

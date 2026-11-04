@@ -70,7 +70,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/7447798022_Download_STP_WE-PDF-1064_rev1.stp
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/7447798022_Download_STP_WE-PDF-1064_rev1.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

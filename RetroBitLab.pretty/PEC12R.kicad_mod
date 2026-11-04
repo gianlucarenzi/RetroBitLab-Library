@@ -21,7 +21,7 @@
   (pad S2 thru_hole circle (at 2.5 -2.5) (size 1.508 1.508) (drill 1) (layers *.Cu *.Mask))
   (pad P$1 thru_hole circle (at -5.4 -3.5) (size 3 3) (drill 2) (layers *.Cu *.Mask))
   (pad P$2 thru_hole circle (at 5.4 -3.5) (size 3 3) (drill 2) (layers *.Cu *.Mask))
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/pec12r-2x17f-sxxxx.stp
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/pec12r-2x17f-sxxxx.stp
     (offset (xyz 0 2.5 8.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

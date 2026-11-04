@@ -36,7 +36,7 @@
   (pad T thru_hole oval (at 7.9 -2) (size 1.508 3.016) (drill oval 1 2) (layers *.Cu *.Mask))
   (pad NC thru_hole oval (at 5.5 0) (size 1.508 3.016) (drill oval 1 2) (layers *.Cu *.Mask))
   (pad NC thru_hole oval (at 11.6 0) (size 1.508 3.016) (drill oval 1 2) (layers *.Cu *.Mask))
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/CUI_DEVICES_SJ1-3533NG.step
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/CUI_DEVICES_SJ1-3533NG.step
     (offset (xyz -5 0.5 7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 0))

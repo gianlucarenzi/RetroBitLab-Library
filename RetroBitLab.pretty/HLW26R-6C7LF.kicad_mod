@@ -44,7 +44,7 @@
   (pad 21 thru_hole circle (at 9 1) (size 1 1) (drill 0.762) (layers *.Cu *.Mask))
   (pad 23 thru_hole circle (at 11 1) (size 1 1) (drill 0.762) (layers *.Cu *.Mask))
   (pad 25 thru_hole circle (at 13 1) (size 1 1) (drill 0.762) (layers *.Cu *.Mask))
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/shlw26r-2c7_lf.stp
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/shlw26r-2c7_lf.stp
     (offset (xyz 4.5 1.5 2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

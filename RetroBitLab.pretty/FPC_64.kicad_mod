@@ -92,7 +92,7 @@
   (pad 64 smd rect (at 15.75 0) (size 0.25 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 0 smd rect (at -17.95 4.05) (size 1.8 2) (layers F.Cu F.Paste F.Mask))
   (pad 65 smd rect (at 18.05 4.05) (size 1.8 2) (layers F.Cu F.Paste F.Mask))
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/FH52E-64S-0.5SH.stp
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/FH52E-64S-0.5SH.stp
     (offset (xyz -6 -2.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

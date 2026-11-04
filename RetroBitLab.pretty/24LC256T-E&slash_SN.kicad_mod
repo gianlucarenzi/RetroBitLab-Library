@@ -91,7 +91,7 @@
   (pad 6 smd rect (at 2.3622 0.635) (size 1.9812 0.5588) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 2.3622 -0.635) (size 1.9812 0.5588) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 2.3622 -1.905) (size 1.9812 0.5588) (layers F.Cu F.Paste F.Mask))
-  (model /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.3dshapes/SOIC8-N_MC_MCH.step
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/SOIC8-N_MC_MCH.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
