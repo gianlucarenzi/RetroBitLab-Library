@@ -232,10 +232,10 @@ K CONN IDC HEADER SMD 10POS 2.54mm
 F https://www.lcsc.com/datasheet/C492446.pdf
 $ENDCMP
 #
-$CMP CONN_SMD_HEADER_BOX_02x08_Odd_Even_2.54mm
-D 2.54mm -40℃~+105℃ 3A 2x8P 8 2 IDC Header 2.54mm Surface Mount,Vertical SMD,P=2.54mm Free Hanging, Panel Mount ROHS
-K connector header with box pin 2x8 p2.54mm SMD
-F https://www.lcsc.com/datasheet/C2685064.pdf
+$CMP CONN_SMD_HEADER_BOX_02x08_HX-JN2.54
+D 2.54mm -40℃~+105℃ 3A 2x8P IDC Box Header Surface Mount,Vertical SMD,P=2.54mm Gold, HanXia HX JN2.54-2x8P TP H8.9
+K connector IDC box header 2x8 p2.54mm SMD
+F https://www.lcsc.com/datasheet/C41376031.pdf
 $ENDCMP
 #
 $CMP CUS10S30,H3F
