@@ -163,6 +163,18 @@ D ATARI BUS EXTENDER ISA 16 BIT
 K ATARI, ISA, ABEX
 $ENDCMP
 #
+$CMP Bus_Apple_II_Card_Side
+D Apple II bus connector. Use this symbol on the card side, i.e. for making Apple II-compatible peripheral cards. Pins 19/35: SYNC/COLOR REF depending on the model (TESTPIN). From markadev/KiCad-AppleII 9c33c63 (CC BY-SA 4.0), converted to KiCad 5.
+K APPLE2
+F https://archive.org/details/Apple_II_Mini_Manual/page/n37/mode/2up
+$ENDCMP
+#
+$CMP Bus_Apple_II_Computer_Side
+D Apple II bus connector. Use this symbol on the motherboard side, either on Apple II-compatible motherboards, or on boards that are designed to take Apple II peripheral cards. Pins 19/35: SYNC/COLOR REF depending on the model (TESTPIN). From markadev/KiCad-AppleII 9c33c63 (CC BY-SA 4.0), converted to KiCad 5.
+K APPLE2
+F https://archive.org/details/Apple_II_Mini_Manual/page/n37/mode/2up
+$ENDCMP
+#
 $CMP Bus_ISA_8bit_for_ATARI_8bit
 D ISA Bus for ATARI EXPANSION BUS EXTENDER
 $ENDCMP
