@@ -546,16 +546,16 @@ K 8-BIT BIDIRECTIONAL VOLTAGE-LEVEL TRANSLATOR
 F www.ti.com/lit/ds/symlink/txs0108e.pdf
 $ENDCMP
 #
-$CMP USBCH340T
-D USB serial converter, UART, SSOP-20
-K USB UART Serial Converter Interface
-F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF
-$ENDCMP
-#
 $CMP USBCH340C
 D USB serial converter, UART, internal clock (no crystal), SOP-16; pin 7 NC must stay open, pin 8 OUT#
 K USB UART Serial Converter Interface
 F https://www.lcsc.com/datasheet/C84681.pdf
+$ENDCMP
+#
+$CMP USBCH340T
+D USB serial converter, UART, SSOP-20
+K USB UART Serial Converter Interface
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF
 $ENDCMP
 #
 $CMP USB_A_SMD_LCSC
