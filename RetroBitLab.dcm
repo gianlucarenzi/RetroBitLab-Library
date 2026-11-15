@@ -323,6 +323,12 @@ K Ferrite Bead 100R 100MHz 4A 0805
 F https://www.lcsc.com/datasheet/C15957.pdf
 $ENDCMP
 #
+$CMP FB0805100R100MHZ800mA
+D 150mΩ ±25% 100Ω@100MHz 800mA 0805 Ferrite Beads ROHS
+K Ferrite Bead 100R 100MHz 800mA 0805
+F https://www.lcsc.com/datasheet/C1015.pdf
+$ENDCMP
+#
 $CMP FB080590R100MHZ850mA
 D 150mΩ ±25% 90Ω@100MHz 0805 Ferrite Beads and Chips ROHS
 K Ferrite Bead 90R 100MHz 850mA 0805
@@ -435,9 +441,9 @@ F https://ccrma.stanford.edu/~chet/projects/tech_content/6581.pdf
 $ENDCMP
 #
 $CMP MOSFET-BSS138-SOT-23
-D 50V 200mA 225mW 5.6Ω@2.75V 500mV 1 N-Channel SOT-23 MOSFETs ROHS
+D 50V 340mA 350mW 1.2Ω@4.5V 1.2V 1 N-Channel SOT-23 MOSFETs ROHS
 K BSS138
-F https://www.lcsc.com/datasheet/C82045.pdf
+F https://www.lcsc.com/datasheet/C7420339.pdf
 $ENDCMP
 #
 $CMP MS9288A
